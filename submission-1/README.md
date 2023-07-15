@@ -479,7 +479,7 @@ Dari gambar di atas, terlihat bahwa, model Random Forest (RF) memberikan nilai e
 
 Tabel 10. Hasil pengujian model
 
-Terlihat bahwa prediksi dengan *Random Forest (RF)* memberikan hasil yang paling mendekati.
+Dari tabel 10 terlihat bahwa prediksi dengan *Random Forest (RF)* memberikan hasil yang paling mendekati.
 
 ### Daftar Refrensi
 1. *"About diabetes". World Health Organization*. Diarsipkan dari versi asli tanggal 31 March 2014. Diakses tanggal 4 April 2014.
