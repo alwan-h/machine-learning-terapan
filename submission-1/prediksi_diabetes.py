@@ -7,19 +7,22 @@ Original file is located at
     https://colab.research.google.com/drive/1G1Lc13Vf2OlbCYo4Vhw5VkSsNTnmBFsu
 """
 
-
+!jupyter nbconvert --to markdown prediksi_diabetes.ipynb
 
 """#Laporan Machine Learning Submission 1
 
 ##Domain Proyek
 
-Diabetes atau penyakit gula (gula darah tinggi) adalah penyakit kronis (jangka panjang) yang perlu kita waspadai. Adapun tanda utama dari penyakit ini adalah meningkatnya kadar gula darah (glukosa) melebihi nilai normal. Diabetes terjadi ketika tubuh pengidapnya tidak lagi mampu mengambil gula (glukosa) ke dalam sel dan menggunakannya sebagai energi. Kondisi ini pada akhirnya menghasilkan penumpukan gula ekstra dalam aliran darah tubuh. (sumber: halodoc.com)
+Diabetes atau penyakit gula (gula darah tinggi) adalah penyakit kronis (jangka panjang) yang perlu kita waspadai. Adapun tanda utama dari penyakit ini adalah meningkatnya kadar gula darah (glukosa) melebihi nilai normal. Diabetes terjadi ketika tubuh pengidapnya tidak lagi mampu mengambil gula (glukosa) ke dalam sel dan menggunakannya sebagai energi. Kondisi ini pada akhirnya menghasilkan penumpukan gula ekstra dalam aliran darah tubuh. (sumber: https://www.halodoc.com/kesehatan/diabetes)
 
-Penyakit diabetes yang tidak terkontrol dengan baik dapat menyebabkan konsekuensi serius, menyebabkan kerusakan pada berbagai organ dan jaringan tubuh. Contohnya organ seperti jantung, ginjal, mata, dan saraf. (sumber: halodoc.com)
+Penyakit diabetes yang tidak terkontrol dengan baik dapat menyebabkan konsekuensi serius, menyebabkan kerusakan pada berbagai organ dan jaringan tubuh. Contohnya organ seperti jantung, ginjal, mata, dan saraf. Ada dua jenis utama diabetes, yaitu diabetes tipe 1 dan tipe 2. Jika dijabarkan, berikut adalah penjelasan mengenai keduanya, yaitu:
 
-Menurut Organisasi Kesehatan Dunia (WHO) diabetes melitus merupakan penyakit kronis serius yang terjadi karena pankreas tidak menghasilkan cukup insulin (hormon yang mengatur gula darah atau glukosa) atau ketika tubuh tidak dapat secara efektif menggunakan insulin yang dihasilkannya. (sumber: detik.com)
+1. Diabetes tipe 1. jenis ini adalah penyakit autoimun, artinya sistem imun tubuh akan menyerang dirinya sendiri. Pada kondisi ini, tubuh tidak akan memproduksi insulin sama sekali.
+2. Diabetes tipe 2. Pada jenis diabetes ini, tubuh tidak membuat cukup insulin atau sel-sel tubuh pengidap diabetes tipe 2 tidak akan merespons insulin secara normal. (sumber: https://www.halodoc.com/kesehatan/diabetes)
 
-Diabetes sendiri sering dijuluki dengan penyakit 'silent killer' lantaran pengidapnya sering mengabaikan gejala awalnya. Selain itu, diabetes juga merupakan penyakit kronis yang paling tinggi kenaikan angka prevalensinya saat ini dan masuk ke dalam daftar 10 penyebab kematian di dunia. (sumber: detik.com)
+Menurut Organisasi Kesehatan Dunia (WHO) diabetes melitus merupakan penyakit kronis serius yang terjadi karena pankreas tidak menghasilkan cukup insulin (hormon yang mengatur gula darah atau glukosa) atau ketika tubuh tidak dapat secara efektif menggunakan insulin yang dihasilkannya. (sumber: https://health.detik.com/berita-detikhealth/d-6817745/angka-diabetes-diperkirakan-nanjak-dipicu-kebiasaan-ngemil-nggak-sehat)
+
+Diabetes sendiri sering dijuluki dengan penyakit 'silent killer' disebut silent killer karena sering tanpa keluhan, sehingga penderita tidak tahu kalau dirinya mengidap hipertensi, tetapi kemudian mendapatkan dirinya sudah terdapat penyakit diabetes, lantaran pengidapnya sering mengabaikan gejala awalnya. Selain itu, diabetes juga merupakan penyakit kronis yang paling tinggi kenaikan angka prevalensinya saat ini dan masuk ke dalam daftar 10 penyebab kematian di dunia. (sumber: https://health.detik.com/berita-detikhealth/d-6817745/angka-diabetes-diperkirakan-nanjak-dipicu-kebiasaan-ngemil-nggak-sehat)
 
 
 
@@ -73,17 +76,23 @@ Faktor - faktor yang mempengaruhi kemungkinan terkena diabetes adalah kehamilan,
 - Mengetahui faktor yang paling berkorelasi dengan penyakti diabetes.
 - Membuat model machine learning yang dapat memprediksi terkena diabetes seakurat mungkin berdasarkan fitur-fitur yang ada.
 
-###Solution statements
+### Solution statements
 kita akan mengembangkan model machine learning dengan tiga algoritma. Kemudian, kita akan mengevaluasi performa masing-masing algoritma dan menentukan algoritma mana yang memberikan hasil prediksi terbaik. Ketiga algoritma yang akan kita gunakan, antara lain:
 1. K-Nearest Neighbor
+- KNN bekerja dengan membandingkan jarak satu sampel ke sampel pelatihan lain dengan memilih sejumlah k tetangga terdekat (dengan k adalah sebuah angka positif).
+- Alasan memilih algoritma KNN adalah karena algoritma ini relatif sederhana, dan mudah dimengerti untjuk pemula.
 2. Random Forest
+- Random forest merupakan salah satu model machine learning yang termasuk ke dalam kategori ensemble (group) learning. Apa itu model ensemble? Sederhananya, ia merupakan model prediksi yang terdiri dari beberapa model dan bekerja secara bersama-sama. Ide dibalik model ensemble adalah sekelompok model yang bekerja bersama menyelesaikan masalah. Sehingga, tingkat keberhasilan akan lebih tinggi dibanding model yang bekerja sendirian. Pada model ensemble, setiap model harus membuat prediksi secara independen. Kemudian, prediksi dari setiap model ensemble ini digabungkan untuk membuat prediksi akhir.
+- Alasan memilih algoritma Random Forest adalah dapat digunakan untuk menyelesaikan masalah klasifikasi dan regresi. Random forest juga merupakan algoritma yang sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni.
 3. Boosting Algorithm
+- Boosting Algorithm bertujuan untuk meningkatkan performa atau akurasi prediksi. Caranya adalah dengan menggabungkan beberapa model sederhana dan dianggap lemah (weak learners) sehingga membentuk suatu model yang kuat (strong ensemble learner). Algoritma boosting muncul dari gagasan mengenai apakah algoritma yang sederhana seperti linear regression dan decision tree dapat dimodifikasi untuk dapat meningkatkan performa.
+- Alasan pemilihan algoritma Boosting adalah hanya sebagai variasi agar lebih banyak algoritma pembanding.
 
 ##Data Understanding
 Data yang saya gunakan pada proyek kali ini adalah Database dataset yang diunduh dari
 https://www.kaggle.com/datasets/johndasilva/diabetes
 
-Dataset diabetes, diambil dari rumah sakit Frankfurt, Jerman diabetes
+Dataset diabetes, diambil dari rumah sakit Frankfurt, Jerman
 
 variable yang ada pada dataset
 
@@ -230,7 +239,12 @@ datadm.hist(bins=50, figsize=(20,15))
 plt.show()
 
 """Dari histogram di atas dapat diamati bahwa
--
+- Jumlah pregnan terbanyak ada di rentang 0 sampai 2
+- Kandungan glukosa di atas normal (140) pada pasien lumayan banyak
+- Tekanan darah pasien rata - rata normal
+- Ketebalan kulit mempunyai korelasi dengna jumlah lemak di badan
+- Banyak pasien yang tidak memproduksi insulin
+- Riwayat keturunan diabetes paling tinggi antara rentang 0.2 - 0.3
 
 ###Multivariate Analysis
 
@@ -356,3 +370,5 @@ for name, model in model_dict.items():
     pred_dict['prediksi_'+name] = model.predict(prediksi).round(1)
 
 pd.DataFrame(pred_dict)
+
+"""Terlihat bahwa prediksi dengan Random Forest (RF) memberikan hasil yang paling mendekati."""
