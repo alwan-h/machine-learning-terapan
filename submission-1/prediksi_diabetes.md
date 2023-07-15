@@ -935,20 +935,7 @@ X_train[numerical_features].describe().round(4)
   <div id="df-b8849061-e9f5-4766-9748-3bf57e6b04f1">
     <div class="colab-df-container">
       <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1143,20 +1130,7 @@ mse
   <div id="df-aa495e21-7bf6-4be8-b5d1-0840ec18ba52">
     <div class="colab-df-container">
       <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1211,20 +1185,7 @@ pd.DataFrame(pred_dict)
   <div id="df-b485bf4b-f931-45eb-bb46-ff8831816b30">
     <div class="colab-df-container">
       <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
