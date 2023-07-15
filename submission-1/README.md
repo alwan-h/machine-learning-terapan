@@ -4,22 +4,23 @@
 
 Diabetes melitus (DM) atau penyakit kencing manis, yang sering disebut hanya diabetes, adalah gangguan metabolisme yang ditandai dengan kadar gula darah yang tinggi dalam periode waktu yang lama.[1] Gejala umum yang terjadi yaitu sering buang air kecil, haus meningkat, dan nafsu makan meningkat.[2] Jika tidak diobati, diabetes dapat menyebabkan banyak komplikasi.[2] Komplikasi akut dapat mencakup ketoasidosis diabetik, keadaan hiperglikemik hiperosmolar, atau kematian.[3] Komplikasi jangka panjang yang serius yaitu penyakit kardiovaskular, stroke, penyakit ginjal kronis, borok kaki, kerusakan saraf, kerusakan mata, dan gangguan kognitif.[2][4]'
 
-Glukosa adalah karbohidrat alamiah yang digunakan tubuh sebagai sumber energi. Kadar glukosa pada darah dikendalikan oleh beberapa hormon. Insulin adalah hormon yang dibuat oleh pankreas. Ketika kita makan, pankreas melepaskan insulin untuk mengirimkan pesan pada sel-sel lainnya di tubuh. Insulin ini memerintahkan sel-sel untuk memproses glukosa dari darah menjadi bentuk yang dapat dimasukkan ke dalam otot atau sel hati. Glukosa yang berlebih disimpan dalam sel-sel sebagai glikogen. Pada saat kadar gula darah mencapai tingkat rendah tertentu, sel-sel memecah glikogen menjadi glukosa untuk menghasilkan energi.
+Glukosa adalah karbohidrat alamiah yang digunakan tubuh sebagai sumber energi. Kadar glukosa pada darah dikendalikan oleh beberapa hormon. Insulin adalah hormon yang dibuat oleh pankreas. Ketika  makan, pankreas melepaskan insulin untuk mengirimkan pesan pada sel-sel lainnya di tubuh. Insulin ini memerintahkan sel-sel untuk memproses glukosa dari darah menjadi bentuk yang dapat dimasukkan ke dalam otot atau sel hati. Glukosa yang berlebih disimpan dalam sel-sel sebagai glikogen. Pada saat kadar gula darah mencapai tingkat rendah tertentu, sel-sel memecah glikogen menjadi glukosa untuk menghasilkan energi.
 
 Diabetes disebabkan oleh pankreas yang tidak memproduksi cukup insulin, atau sel-sel tubuh tidak merespons dengan baik terhadap insulin yang diproduksi.[5] Terdapat tiga jenis utama diabetes mellitus:[2]
 
-Diabetes melitus tipe 1 disebabkan karena pankreas gagal untuk memproduksi insulin yang cukup karena kehilangan sel beta (β).[2] Jenis ini sebelumnya disebut sebagai "diabetes mellitus tergantung insulin" (IDDM) atau "diabetes remaja".[2] Hilangnya sel beta disebabkan oleh respons autoimun.[6] Penyebab respons autoimun ini belum diketahui.[2]
-Diabetes melitus tipe 2 dimulai dengan resistensi insulin, suatu kondisi yang mana sel-sel gagal merespons insulin dengan baik.[2] Seiring perkembangan penyakit, kekurangan insulin juga dapat terjadi.[7] Bentuk ini sebelumnya disebut sebagai "diabetes mellitus non-dependen insulin" (NIDDM) atau "diabetes onset dewasa".[2] Penyebab paling umum yaitu kombinasi dari berat badan berlebihan dan kurang olahraga.[2]
-Diabetes gestasional adalah diabetes yang terjadi ketika wanita hamil. Diabetes ini terjadi pada ibu hamil yang sebelumnya tidak memiliki riwayat diabetes, namun saat hamil ibu mengalami kadar gula darah yang tinggi.[2]
+1. Diabetes melitus tipe 1 disebabkan karena pankreas gagal untuk memproduksi insulin yang cukup karena kehilangan sel beta (β).[2] Jenis ini sebelumnya disebut sebagai "diabetes mellitus tergantung insulin" (IDDM) atau "diabetes remaja".[2] Hilangnya sel beta disebabkan oleh respons autoimun.[6] Penyebab respons autoimun ini belum diketahui.[2]
+2. Diabetes melitus tipe 2 dimulai dengan resistensi insulin, suatu kondisi yang mana sel-sel gagal merespons insulin dengan baik.[2] Seiring perkembangan penyakit, kekurangan insulin juga dapat terjadi.[7] Bentuk ini sebelumnya disebut sebagai "diabetes mellitus non-dependen insulin" (NIDDM) atau "diabetes onset dewasa".[2] Penyebab paling umum yaitu kombinasi dari berat badan berlebihan dan kurang olahraga.[2]
+3. Diabetes gestasional adalah diabetes yang terjadi ketika wanita hamil. Diabetes ini terjadi pada ibu hamil yang sebelumnya tidak memiliki riwayat diabetes, namun saat hamil ibu mengalami kadar gula darah yang tinggi.[2]
+
 Diabetes melitus tipe 1 harus dikelola dengan suntikan insulin.[2] Pencegahan dan pengobatan diabetes tipe 2 melibatkan menjaga pola makan yang sehat, olahraga fisik secara teratur, menjaga berat badan normal, dan tidak merokok.[2] Diabetes tipe 2 dapat diobati dengan Antidiabetik oral seperti sensitizer insulin dengan atau tanpa insulin.[8] Kontrol tekanan darah dalam batas normal dan menjaga perawatan kaki serta mata secara baik merupakan langkah penting bagi penderita penyakit ini.[2] Insulin dan beberapa obat oral dapat menyebabkan gula darah rendah.[9] Operasi penurunan berat badan pada orang-orang yang mengalami obesitas kadang-kadang merupakan upaya yang efektif pada mereka yang menderita diabetes tipe 2.[10] Diabetes gestasional dapat sembuh setelah kelahiran bayi, tapi disarankan ibu untuk konsultasi kepada dokter ahli terlebih dahulu.[11]
 
 Hingga 2019, diperkirakan 463 juta orang menderita diabetes di seluruh dunia (8,8% dari populasi orang dewasa), dengan diabetes tipe 2 merupakan sekitar 90% dari kasus.[12] Tingkat kejadian serupa pada wanita dan pria.[13] Diabetes setidaknya menggandakan risiko kematian dini seseorang.[2] Pada 2019, diabetes mengakibatkan sekitar 4,2 juta kematian.[12] Pada tahun 2013, Indonesia memiliki sekitar 8,5 juta penderita diabetes yang merupakan jumlah keempat terbanyak di Asia dan nomor tujuh di dunia.[14] Dan pada tahun 2020, diperkirakan Indonesia akan memiliki 12 juta penderita diabetes, karena yang mulai terkena diabetes usianya semakin muda.
 
 ## Business Understanding
 
-Kita pasti sudah tidak asing lagi mendengar penyakit bernama diabetes melitus (DM) atau yang sering disebut juga kencing manis. DM merupakan penyakit kronis yang ditandai dengan meningkatnya kadar gula (glukosa) darah hingga di atas normal.
+Siabetes melitus (DM) atau yang sering disebut juga kencing manis merupakan penyakit kronis yang ditandai dengan meningkatnya kadar gula (glukosa) darah hingga di atas normal.
 
-Normalnya, makanan yang kita konsumsi akan diproses oleh tubuh menjadi glukosa dan digunakan sebagai energi. Hormon yang berfungsi untuk membantu glukosa diserap oleh sel-sel tubuh adalah insulin. Hormon ini dihasilkan oleh pankreas.
+Normalnya, makanan yang dikonsumsi akan diproses oleh tubuh menjadi glukosa dan digunakan sebagai energi. Hormon yang berfungsi untuk membantu glukosa diserap oleh sel-sel tubuh adalah insulin. Hormon ini dihasilkan oleh pankreas.
 
 Namun, pada pengidap diabetes, tubuh tidak menghasilkan jumlah insulin yang cukup atau insulin tidak berfungsi sebagaimana mestinya. Kondisi inilah yang mengakibatkan peningkatan kadar gula dalam darah.
 
@@ -27,34 +28,34 @@ Diabetes mellitus merupakan penyakit serius yang tidak boleh disepelekan karena 
 
 ### Jenis-Jenis Diabetes Melitus
 
-Secara umum, diabetes mellitus bisa dibedakan menjadi dua jenis, yaitu diabetes tipe 1 dan tipe 2.
+Secara umum, diabetes mellitus bisa dibedakan menjadi dua jenis, yaitu diabetes tipe 1 dan tipe 2.[17]
 
-Diabetes tipe 1 terjadi karena adanya kondisi autoimun, di mana sistem kekebalan tubuh pengidap sendiri yang menyerang dan menghancurkan sel-sel pankreas yang memproduksi insulin. Hal ini mengakibatkan kadar gula darah jadi meningkat, sehingga memicu terjadinya kerusakan pada organ-organ tubuh. Masih belum diketahui apa penyebab kondisi autoimun ini. Namun, dugaan paling kuat adalah karena adanya faktor genetik yang dimiliki pengidap dan ditambah lagi dengan faktor lingkungan.
+Diabetes tipe 1 terjadi karena adanya kondisi autoimun, di mana sistem kekebalan tubuh pengidap sendiri yang menyerang dan menghancurkan sel-sel pankreas yang memproduksi insulin. Hal ini mengakibatkan kadar gula darah jadi meningkat, sehingga memicu terjadinya kerusakan pada organ-organ tubuh. Masih belum diketahui apa penyebab kondisi autoimun ini. Namun, dugaan paling kuat adalah karena adanya faktor genetik yang dimiliki pengidap dan ditambah lagi dengan faktor lingkungan.[17]
 
-Diabetes tipe 2 merupakan jenis diabetes yang lebih sering terjadi. Diabetes ini disebabkan karena sel-sel tubuh kurang sensitif terhadap insulin, sehingga insulin yang dihasilkan tidak bisa dipergunakan dengan baik (resistensi sel tubuh terhadap insulin). Hampir sebagian besar pengidap diabetes di dunia mengalami diabetes tipe 2.
+Diabetes tipe 2 merupakan jenis diabetes yang lebih sering terjadi. Diabetes ini disebabkan karena sel-sel tubuh kurang sensitif terhadap insulin, sehingga insulin yang dihasilkan tidak bisa dipergunakan dengan baik (resistensi sel tubuh terhadap insulin). Hampir sebagian besar pengidap diabetes di dunia mengalami diabetes tipe 2.[17]
 
-Selain kedua jenis diabetes tersebut, ada juga jenis diabetes khusus pada ibu hamil yang dinamakan diabetes gestasional. Diabetes pada kehamilan ini disebabkan oleh perubahan hormon, sehingga gula darah biasanya akan kembali normal setelah ibu hamil melahirkan.
+Selain kedua jenis diabetes tersebut, ada juga jenis diabetes khusus pada ibu hamil yang dinamakan diabetes gestasional. Diabetes pada kehamilan ini disebabkan oleh perubahan hormon, sehingga gula darah biasanya akan kembali normal setelah ibu hamil melahirkan.[17]
 
 ### Faktor Risiko Diabetes Melitus
 
-Nah, setiap jenis diabetes mellitus memiliki faktor risiko yang berbeda-beda. Berikut ini faktor-faktor risiko diabetes tipe 1:
+Setiap jenis diabetes mellitus memiliki faktor risiko yang berbeda-beda. Berikut ini faktor-faktor risiko diabetes tipe 1:
 
-1. Memiliki anggota keluarga yang mengidap diabetes tipe 1
+1. Riwayat keluarga yang mengidap diabetes tipe 1
 2. Terkena infeksi virus
 3. Orang berkulit putih dipercaya lebih berisiko mengalami diabetes tipe 1 dibandingkan ras lain
 4. Bepergian ke daerah yang jauh dari khatulistiwa (ekuator)
-5. Usia. Meskipun diabetes tipe 1 bisa muncul pada usia berapapun, tapi penyakit ini banyak dialami oleh anak-anak berumur 4–7 tahun dan 10–14 tahun.
+5. Usia. Banyak dialami oleh anak-anak berumur 4–7 tahun dan 10–14 tahun.[17]
 
-Sedangkan faktor risiko diabetes mellitus tipe 2 adalah sebagai berikut:
+Faktor risiko diabetes mellitus tipe 2:
 
-1. Mengalami obesitas atau kelebihan berat badan.
-2. Memiliki riwayat keluarga dengan diabetes tipe 2.
-3. Kurang aktif bergerak. Aktivitas fisik bisa membantu seseorang untuk mengontrol berat badan, membakar glukosa sebagai energi, dan membuat sel tubuh lebih sensitif terhadap insulin. Itulah mengapa, orang yang kurang beraktivitas fisik akan lebih mudah terkena diabetes tipe 2.
-4. Usia. Risiko terkena diabetes tipe 2 akan meningkat seiring bertambahnya usia.
-5. Mengidap tekanan darah tinggi atau hipertensi.
-6. Memiliki kadar kolesterol dan trigliserida yang tidak normal. Orang yang memiliki kadar kolesterol baik atau HDL (high-density lipoprotein) yang rendah, tapi kadar trigliseridanya tinggi lebih berisiko mengalami diabetes tipe 2.
+1. Obesitas atau kelebihan berat badan.
+2. Riwayat keluarga dengan diabetes tipe 2.
+3. Kurang aktif bergerak.
+4. Usia.
+5. Tekanan darah tinggi atau hipertensi.
+6. Memiliki kadar kolesterol dan trigliserida yang tidak normal. 
 7. Mengidap polycystic ovarian syndrome (PCOS). Khusus pada wanita, memiliki riwayat penyakit PCOS membuat seorang wanita berisiko tinggi mengalami diabetes tipe 2.
-8. Sedangkan pada ibu hamil, risiko mengalami diabetes gestasional semakin besar bila ibu mengidap diabetes tipe 2.
+8. Ibu hamil, risiko mengalami diabetes gestasional semakin besar bila ibu mengidap diabetes tipe 2.[17]
 
 ### Problem Statements
 
@@ -110,6 +111,7 @@ Tahapan Pemahaman data:
 
 ### *Data Loading*
 
+Table 1. Dataset data diabetes
 
 | Pregnancies | Glucose | BloodPressure | SkinThickness | Insulin | BMI | DiabetesPedigreeFunction | Age   | Outcome |
 |-------------|---------|---------------|---------------|---------|-----|--------------------------|-------|---------|
@@ -125,7 +127,6 @@ Tahapan Pemahaman data:
 | 1998        | 0       | 129           | 110           | 46      | 130 | 67.1                     | 0.319 | 26      | 1   |
 | 1999        | 2       | 81            | 72            | 15      | 76  | 30.1                     | 0.547 | 25      | 0   |
 
-Table 1. Dataset data diabetes
 
 ### *Exploratory Data Analysis* - Deskripsi Variabel
 
@@ -140,6 +141,8 @@ Table 1. Dataset data diabetes
 - *DiabetesPedigreeFunction* = Riwayat keturunan diabetes
 - *Age* = Umur (tahun)
 - *Outcome* = *Class* (0 atau 1) 268 dari 768 adalah 1, yang lain adalah 0
+
+Tabel 2. Tipe data dari masing - masing fitur
   
 | # |  Column                  | Non-Null Count | Dtype   |
 |---|--------------------------|----------------|---------|
@@ -153,12 +156,13 @@ Table 1. Dataset data diabetes
 | 7 | Age                      | 2000 non-null  | int64   |
 | 8 | Outcome                  | 2000 non-null  | int64   |
 
-Tabel 2. Tipe data dari masing - masing fitur
 
 - Terdapat 7 kolom dengan tipe data int64 yaitu : Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, Age, Outcome.
 - Terdapat 2 kolom dengan tipe data float64 yaitu : BMI, DiabetesPedigreeFunction.
 
 Uraian di atas menunjukkan bahwa setiap kolom telah memiliki tipe data yang sesuai. Selanjutnya, mengecek deskripsi statistik data dengan fitur describe().
+
+Tabel 3. Deskripsi statistik data
 
 | Pregnancies | Glucose     | BloodPressure | SkinThickness | Insulin     | BMI         | DiabetesPedigreeFunction | Age         | Outcome     |
 |-------------|-------------|---------------|---------------|-------------|-------------|--------------------------|-------------|-------------|
@@ -171,7 +175,6 @@ Uraian di atas menunjukkan bahwa setiap kolom telah memiliki tipe data yang sesu
 | 75%         | 6.000000    | 141.000000    | 80.000000     | 32.000000   | 130.000000  | 36.800000                | 0.624000    | 40.000000   | 1.000000    |
 | max         | 17.000000   | 199.000000    | 122.000000    | 110.000000  | 744.000000  | 80.600000                | 2.420000    | 81.000000   | 1.000000    |
 
-Tabel 3. Deskripsi statistik data
 
 Fungsi describe() memberikan informasi statistik pada masing-masing kolom, antara lain:
 
@@ -200,6 +203,7 @@ Nilai 0 di kolom age ada:  0
 
 Catatan : Insulin tidak masuk ke pengecekan missing value karena memang ada kadar hormon insluin 0
 
+Tabel 4. Pengecekan nilai 0 pada masing - masing fitur
 
 | Pregnancies | Glucose | BloodPressure | SkinThickness | Insulin | BMI | DiabetesPedigreeFunction | Age   | Outcome |
 |-------------|---------|---------------|---------------|---------|-----|--------------------------|-------|---------|
@@ -215,9 +219,10 @@ Catatan : Insulin tidak masuk ke pengecekan missing value karena memang ada kada
 | 1991        | 6       | 102           | 82            | 0       | 0   | 30.8                     | 0.180 | 36      | 1   |
 | 1997        | 6       | 85            | 78            | 0       | 0   | 31.2                     | 0.382 | 42      | 0   |
 
-Tabel 4. Pengecekan nilai 0 pada masing - masing fitur
 
 Di bawah ini adalah hasil dari pengecekan apakah terdapat data dengan nilai null
+
+Tabel 5. Pengecekan data dengan nilai null
 
 | Parameter                   | Nilai |
 |-----------------------------|-------|
@@ -231,7 +236,6 @@ Di bawah ini adalah hasil dari pengecekan apakah terdapat data dengan nilai null
 | Age                         |     0 |
 | Outcome                     |     0 |
 
-Tabel 5. Pengecekan data dengan nilai null
 
 Pada tabel 5 dapat dilihat bahwa tidak ditemukan data dengan nilai *null*
 
@@ -292,7 +296,7 @@ Gambar 6. *Pregnancies Age*
 Pada fitur - fitur di atas terdapat beberapa outlier. Selanjutnya adalah mengatasi outliers tersebut dengan metode IQR, berikut persamaanya
 
 
-Ukuran dataset setelah kita drop outliers adalah (1211, 9)
+Ukuran dataset setelah di drop outliers adalah (1211, 9)
 
 ### Univariate Analysis
 
@@ -300,13 +304,13 @@ Ukuran dataset setelah kita drop outliers adalah (1211, 9)
 
 ##### Fitur Outcome
 
+Table 6. Jumlah sampel dan presentase *outcome*
 
 | # | Jumlah sampel | persentase |
 |---|---------------|------------|
 | 0 |           856 |       70.7 |
 | 1 |           355 |       29.3 |
 
-Table 6. Jumlah sampel dan presentase *outcome*
 
 ![png](assets/prediksi_diabetes_31_1.png)
 
@@ -360,6 +364,7 @@ pada tahapan ini, kolom "Outcome" dijadikan target yang akan diprediksi.
 
 #### *Standarisasi*
 
+Tabel 7. Standarisasi
 
 | Pregnancies | Glucose   | BloodPressure | SkinThickness | Insulin   | BMI       | DiabetesPedigreeFunction | Age       |
 |-------------|-----------|---------------|---------------|-----------|-----------|--------------------------|-----------|
@@ -369,8 +374,8 @@ pada tahapan ini, kolom "Outcome" dijadikan target yang akan diprediksi.
 | 981         | -1.112108 | 0.668836      | -0.828086     | -1.190503 | 1.245247  | -1.637581                | -0.971996 | -1.005966 |
 | 501         | -0.045386 | -1.179544     | 0.068945      | 0.362265  | -1.105880 | 0.717375                 | -0.740307 | -0.251417 |
 
-Tabel 7. Standarisasi
 
+Tabel 8. Pengecekan standar deviasi
 
 | Pregnancies | Glucose   | BloodPressure | SkinThickness | Insulin   | BMI       | DiabetesPedigreeFunction | Age       |
 |-------------|-----------|---------------|---------------|-----------|-----------|--------------------------|-----------|
@@ -383,7 +388,6 @@ Tabel 7. Standarisasi
 | 75%         | 0.6658    | 0.6016        | 0.6072        | 0.7763    | 0.6295    | 0.6082                   | 0.5958    | 0.6109    |
 | max         | 2.7992    | 2.6516        | 2.9394        | 2.6397    | 3.3948    | 2.8228                   | 2.9551    | 3.1979    |
 
-Tabel 8. Pengecekan standar deviasi
 
 Pada tabel 8 dapat dilihat bahwa standarisasi menghasilkan distribusi dengan standar deviasi sama dengan 1 dan mean sama dengan 0. Sekitar 68% dari nilai akan berada di antara -1 dan 1.
 
@@ -419,7 +423,7 @@ Pada tabel 8 dapat dilihat bahwa standarisasi menghasilkan distribusi dengan sta
   - Membutuhkan lebih banyak sumber daya.
   - Tidak efektif untuk data dengan dimensi tinggi.
 - Parameter:
-  - n_estimator: jumlah trees (pohon) di forest. Di sini kita set n_estimator=50.
+  - n_estimator: jumlah trees (pohon) di forest. Di sini diset n_estimator=50.
   - max_depth: kedalaman atau panjang pohon. Ia merupakan ukuran seberapa banyak pohon dapat membelah (splitting) untuk membagi setiap node ke dalam jumlah pengamatan yang diinginkan. max_depth=16
   - random_state: digunakan untuk mengontrol random number generator yang digunakan. random_state=55
   - n_jobs: jumlah job (pekerjaan) yang digunakan secara paralel. Ia merupakan komponen untuk mengontrol thread atau proses yang berjalan secara paralel. n_jobs=-1 artinya semua proses berjalan secara paralel. n_jobs=-1
@@ -458,6 +462,7 @@ ypred = nilai prediksi
 
 Sebelum menghitung nilai MSE dalam model, dilakukan proses scaling fitur numerik pada data uji, kemudian mengevaluasi ketiga model dengan matrik MSE
 
+Tabel 9. Hasil evaluasi pada data latih dan data test
 
 |          | train    | test     |
 |----------|----------|----------|
@@ -465,21 +470,36 @@ Sebelum menghitung nilai MSE dalam model, dilakukan proses scaling fitur numerik
 | RF       | 0.000003 | 0.000011 |
 | Boosting | 0.0001   | 0.000121 |
 
-Tabel 9. Hasil evaluasi pada data latih dan data test
 
 ![png](assets/prediksi_diabetes_59_0.png)
 
 Gambar 10. Diagram prediksi
 
-Dari gambar di atas, terlihat bahwa, model Random Forest (RF) memberikan nilai eror yang paling kecil. Sedangkan model dengan algoritma Boosting dan algoritma KNN hampir sama.
-
-|        | y_true | prediksi_KNN | prediksi_RF | prediksi_Boosting |
-|--------|--------------|-------------|-------------------|-----|
-| 1652   | 1            | 0.6         | 1.0               | 0.9 |
+Dari gambar di atas, terlihat bahwa, model *Random Forest* (RF) memberikan nilai eror yang paling kecil. Sedangkan model dengan algoritma Boosting dan algoritma KNN hampir sama.
 
 Tabel 10. Hasil pengujian model
 
-Dari tabel 10 terlihat bahwa prediksi dengan *Random Forest (RF)* memberikan hasil yang paling mendekati.
+|         | outcome | prediksi_KNN | prediksi_RF | prediksi_Boosting |
+|---------|--------------|-------------|-------------------|-----|
+| 1652    | 1            | 0.6         | 1.0               | 0.9 |
+| 335     | 0            | 0.3         | 0.2               | 0.6 |
+| 894     | 1            | 0.7         | 1.0               | 0.7 |
+| 1544    | 1            | 0.3         | 1.0               | 0.5 |
+| 258     | 0            | 0.4         | 0.3               | 0.6 |
+| 610     | 0            | 0.0         | 0.0               | 0.1 |
+| 1539    | 1            | 0.7         | 0.9               | 0.7 |
+| 55      | 0            | 0.0         | 0.0               | 0.1 |
+| 1279    | 0            | 0.0         | 0.0               | 0.2 |
+| 1001    | 0            | 0.0         | 0.1               | 0.1 |
+
+
+Dari tabel 10 terlihat bahwa prediksi dengan *Random Forest (RF)* memberikan hasil yang paling mendekati nilai Outcome.
+
+### Kesimpulan
+
+Keberhasilan proyek *predictive analytics* tidak hanya ditentukan oleh pemilihan algoritma machine learning saja, melainkan juga penerapan metodologi standar dalam mengelola seluruh tahapan atau siklus proyek.
+
+Dan dari percobaan yang telah dilakukan, maka dapat disimpulkan bahwa algoritma *Random Forest (RF)* merupakan algoritma terbaik untuk memprediksi apakah seseorang terindikasi terkena diabetes atau tidak berdasarkan dataset yang kita gunuakan untuk pelatihan model.
 
 ### Daftar Refrensi
 1. *"About diabetes". World Health Organization*. Diarsipkan dari versi asli tanggal 31 March 2014. Diakses tanggal 4 April 2014.
@@ -499,3 +519,4 @@ Kitabchi AE, Umpierrez GE, Miles JM, Fisher JN (July 2009).
 14. *"Simple treatment to curb diabetes"*. January 20, 2014. Diarsipkan dari versi asli tanggal 2014-02-02. Diakses tanggal 2014-01-20.
 15. Breiman, L. 2022. Random Forest. *Machine Learning*. 45: 5-32.
 16.  Febryananda, A.R. 2022. Mengenal Teknik *Gradient Boosting* dalam Algoritma *Machine Learning.* Laboratorium Analisis Data dan Rekaya Kualitas. [link](https://lab_adrk.ub.ac.id/id/mengenal-teknik-gradient-boosting-dalam-algoritma-machine-learning/). [accessed May. 29 2023]
+17. https://www.halodoc.com/artikel/12-faktor-ini-tingkatkan-risiko-diabetes-melitus 

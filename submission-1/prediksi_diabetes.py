@@ -13,58 +13,60 @@ Original file is located at
 
 ##Domain Proyek
 
-Diabetes atau penyakit gula (gula darah tinggi) adalah penyakit kronis (jangka panjang) yang perlu kita waspadai. Adapun tanda utama dari penyakit ini adalah meningkatnya kadar gula darah (glukosa) melebihi nilai normal. Diabetes terjadi ketika tubuh pengidapnya tidak lagi mampu mengambil gula (glukosa) ke dalam sel dan menggunakannya sebagai energi. Kondisi ini pada akhirnya menghasilkan penumpukan gula ekstra dalam aliran darah tubuh. (sumber: https://www.halodoc.com/kesehatan/diabetes)
+Diabetes melitus (DM) atau penyakit kencing manis, yang sering disebut hanya diabetes, adalah gangguan metabolisme yang ditandai dengan kadar gula darah yang tinggi dalam periode waktu yang lama.[1] Gejala umum yang terjadi yaitu sering buang air kecil, haus meningkat, dan nafsu makan meningkat.[2] Jika tidak diobati, diabetes dapat menyebabkan banyak komplikasi.[2] Komplikasi akut dapat mencakup ketoasidosis diabetik, keadaan hiperglikemik hiperosmolar, atau kematian.[3] Komplikasi jangka panjang yang serius yaitu penyakit kardiovaskular, stroke, penyakit ginjal kronis, borok kaki, kerusakan saraf, kerusakan mata, dan gangguan kognitif.[2][4]'
 
-Penyakit diabetes yang tidak terkontrol dengan baik dapat menyebabkan konsekuensi serius, menyebabkan kerusakan pada berbagai organ dan jaringan tubuh. Contohnya organ seperti jantung, ginjal, mata, dan saraf. Ada dua jenis utama diabetes, yaitu diabetes tipe 1 dan tipe 2. Jika dijabarkan, berikut adalah penjelasan mengenai keduanya, yaitu:
+Glukosa adalah karbohidrat alamiah yang digunakan tubuh sebagai sumber energi. Kadar glukosa pada darah dikendalikan oleh beberapa hormon. Insulin adalah hormon yang dibuat oleh pankreas. Ketika  makan, pankreas melepaskan insulin untuk mengirimkan pesan pada sel-sel lainnya di tubuh. Insulin ini memerintahkan sel-sel untuk memproses glukosa dari darah menjadi bentuk yang dapat dimasukkan ke dalam otot atau sel hati. Glukosa yang berlebih disimpan dalam sel-sel sebagai glikogen. Pada saat kadar gula darah mencapai tingkat rendah tertentu, sel-sel memecah glikogen menjadi glukosa untuk menghasilkan energi.
 
-1. Diabetes tipe 1. jenis ini adalah penyakit autoimun, artinya sistem imun tubuh akan menyerang dirinya sendiri. Pada kondisi ini, tubuh tidak akan memproduksi insulin sama sekali.
-2. Diabetes tipe 2. Pada jenis diabetes ini, tubuh tidak membuat cukup insulin atau sel-sel tubuh pengidap diabetes tipe 2 tidak akan merespons insulin secara normal. (sumber: https://www.halodoc.com/kesehatan/diabetes)
+Diabetes disebabkan oleh pankreas yang tidak memproduksi cukup insulin, atau sel-sel tubuh tidak merespons dengan baik terhadap insulin yang diproduksi.[5] Terdapat tiga jenis utama diabetes mellitus:[2]
 
-Menurut Organisasi Kesehatan Dunia (WHO) diabetes melitus merupakan penyakit kronis serius yang terjadi karena pankreas tidak menghasilkan cukup insulin (hormon yang mengatur gula darah atau glukosa) atau ketika tubuh tidak dapat secara efektif menggunakan insulin yang dihasilkannya. (sumber: https://health.detik.com/berita-detikhealth/d-6817745/angka-diabetes-diperkirakan-nanjak-dipicu-kebiasaan-ngemil-nggak-sehat)
+1. Diabetes melitus tipe 1 disebabkan karena pankreas gagal untuk memproduksi insulin yang cukup karena kehilangan sel beta (β).[2] Jenis ini sebelumnya disebut sebagai "diabetes mellitus tergantung insulin" (IDDM) atau "diabetes remaja".[2] Hilangnya sel beta disebabkan oleh respons autoimun.[6] Penyebab respons autoimun ini belum diketahui.[2]
+2. Diabetes melitus tipe 2 dimulai dengan resistensi insulin, suatu kondisi yang mana sel-sel gagal merespons insulin dengan baik.[2] Seiring perkembangan penyakit, kekurangan insulin juga dapat terjadi.[7] Bentuk ini sebelumnya disebut sebagai "diabetes mellitus non-dependen insulin" (NIDDM) atau "diabetes onset dewasa".[2] Penyebab paling umum yaitu kombinasi dari berat badan berlebihan dan kurang olahraga.[2]
+3. Diabetes gestasional adalah diabetes yang terjadi ketika wanita hamil. Diabetes ini terjadi pada ibu hamil yang sebelumnya tidak memiliki riwayat diabetes, namun saat hamil ibu mengalami kadar gula darah yang tinggi.[2]
 
-Diabetes sendiri sering dijuluki dengan penyakit 'silent killer' disebut silent killer karena sering tanpa keluhan, sehingga penderita tidak tahu kalau dirinya mengidap hipertensi, tetapi kemudian mendapatkan dirinya sudah terdapat penyakit diabetes, lantaran pengidapnya sering mengabaikan gejala awalnya. Selain itu, diabetes juga merupakan penyakit kronis yang paling tinggi kenaikan angka prevalensinya saat ini dan masuk ke dalam daftar 10 penyebab kematian di dunia. (sumber: https://health.detik.com/berita-detikhealth/d-6817745/angka-diabetes-diperkirakan-nanjak-dipicu-kebiasaan-ngemil-nggak-sehat)
+Diabetes melitus tipe 1 harus dikelola dengan suntikan insulin.[2] Pencegahan dan pengobatan diabetes tipe 2 melibatkan menjaga pola makan yang sehat, olahraga fisik secara teratur, menjaga berat badan normal, dan tidak merokok.[2] Diabetes tipe 2 dapat diobati dengan Antidiabetik oral seperti sensitizer insulin dengan atau tanpa insulin.[8] Kontrol tekanan darah dalam batas normal dan menjaga perawatan kaki serta mata secara baik merupakan langkah penting bagi penderita penyakit ini.[2] Insulin dan beberapa obat oral dapat menyebabkan gula darah rendah.[9] Operasi penurunan berat badan pada orang-orang yang mengalami obesitas kadang-kadang merupakan upaya yang efektif pada mereka yang menderita diabetes tipe 2.[10] Diabetes gestasional dapat sembuh setelah kelahiran bayi, tapi disarankan ibu untuk konsultasi kepada dokter ahli terlebih dahulu.[11]
 
+Hingga 2019, diperkirakan 463 juta orang menderita diabetes di seluruh dunia (8,8% dari populasi orang dewasa), dengan diabetes tipe 2 merupakan sekitar 90% dari kasus.[12] Tingkat kejadian serupa pada wanita dan pria.[13] Diabetes setidaknya menggandakan risiko kematian dini seseorang.[2] Pada 2019, diabetes mengakibatkan sekitar 4,2 juta kematian.[12] Pada tahun 2013, Indonesia memiliki sekitar 8,5 juta penderita diabetes yang merupakan jumlah keempat terbanyak di Asia dan nomor tujuh di dunia.[14] Dan pada tahun 2020, diperkirakan Indonesia akan memiliki 12 juta penderita diabetes, karena yang mulai terkena diabetes usianya semakin muda.
 
+## Business Understanding
 
-##Business Understanding
-Kita pasti sudah tidak asing lagi mendengar penyakit bernama diabetes melitus (DM) atau yang sering disebut juga kencing manis. DM merupakan penyakit kronis yang ditandai dengan meningkatnya kadar gula (glukosa) darah hingga di atas normal.
+Siabetes melitus (DM) atau yang sering disebut juga kencing manis merupakan penyakit kronis yang ditandai dengan meningkatnya kadar gula (glukosa) darah hingga di atas normal.
 
-Normalnya, makanan yang kita konsumsi akan diproses oleh tubuh menjadi glukosa dan digunakan sebagai energi. Hormon yang berfungsi untuk membantu glukosa diserap oleh sel-sel tubuh adalah insulin. Hormon ini dihasilkan oleh pankreas.
+Normalnya, makanan yang dikonsumsi akan diproses oleh tubuh menjadi glukosa dan digunakan sebagai energi. Hormon yang berfungsi untuk membantu glukosa diserap oleh sel-sel tubuh adalah insulin. Hormon ini dihasilkan oleh pankreas.
 
 Namun, pada pengidap diabetes, tubuh tidak menghasilkan jumlah insulin yang cukup atau insulin tidak berfungsi sebagaimana mestinya. Kondisi inilah yang mengakibatkan peningkatan kadar gula dalam darah.
 
 Diabetes mellitus merupakan penyakit serius yang tidak boleh disepelekan karena bisa menyebabkan komplikasi kesehatan yang fatal, seperti penyakit jantung, gagal ginjal, kebutaan, amputasi, bahkan kematian. Namun, DM sebenarnya adalah penyakit yang bisa dicegah. Salah satu caranya adalah dengan mengetahui faktor-faktor risiko diabetes mellitus di sini.
 
-###Jenis-Jenis Diabetes Melitus
-Secara umum, diabetes mellitus bisa dibedakan menjadi dua jenis, yaitu diabetes tipe 1 dan tipe 2.
+### Jenis-Jenis Diabetes Melitus
 
-Diabetes tipe 1 terjadi karena adanya kondisi autoimun, di mana sistem kekebalan tubuh pengidap sendiri yang menyerang dan menghancurkan sel-sel pankreas yang memproduksi insulin. Hal ini mengakibatkan kadar gula darah jadi meningkat, sehingga memicu terjadinya kerusakan pada organ-organ tubuh. Masih belum diketahui apa penyebab kondisi autoimun ini. Namun, dugaan paling kuat adalah karena adanya faktor genetik yang dimiliki pengidap dan ditambah lagi dengan faktor lingkungan.
+Secara umum, diabetes mellitus bisa dibedakan menjadi dua jenis, yaitu diabetes tipe 1 dan tipe 2.[17]
 
-Diabetes tipe 2 merupakan jenis diabetes yang lebih sering terjadi. Diabetes ini disebabkan karena sel-sel tubuh kurang sensitif terhadap insulin, sehingga insulin yang dihasilkan tidak bisa dipergunakan dengan baik (resistensi sel tubuh terhadap insulin). Hampir sebagian besar pengidap diabetes di dunia mengalami diabetes tipe 2.
+Diabetes tipe 1 terjadi karena adanya kondisi autoimun, di mana sistem kekebalan tubuh pengidap sendiri yang menyerang dan menghancurkan sel-sel pankreas yang memproduksi insulin. Hal ini mengakibatkan kadar gula darah jadi meningkat, sehingga memicu terjadinya kerusakan pada organ-organ tubuh. Masih belum diketahui apa penyebab kondisi autoimun ini. Namun, dugaan paling kuat adalah karena adanya faktor genetik yang dimiliki pengidap dan ditambah lagi dengan faktor lingkungan.[17]
 
-Selain kedua jenis diabetes tersebut, ada juga jenis diabetes khusus pada ibu hamil yang dinamakan diabetes gestasional. Diabetes pada kehamilan ini disebabkan oleh perubahan hormon, sehingga gula darah biasanya akan kembali normal setelah ibu hamil melahirkan.
+Diabetes tipe 2 merupakan jenis diabetes yang lebih sering terjadi. Diabetes ini disebabkan karena sel-sel tubuh kurang sensitif terhadap insulin, sehingga insulin yang dihasilkan tidak bisa dipergunakan dengan baik (resistensi sel tubuh terhadap insulin). Hampir sebagian besar pengidap diabetes di dunia mengalami diabetes tipe 2.[17]
 
-###Faktor Risiko Diabetes Melitus
-Nah, setiap jenis diabetes mellitus memiliki faktor risiko yang berbeda-beda. Berikut ini faktor-faktor risiko diabetes tipe 1:
+Selain kedua jenis diabetes tersebut, ada juga jenis diabetes khusus pada ibu hamil yang dinamakan diabetes gestasional. Diabetes pada kehamilan ini disebabkan oleh perubahan hormon, sehingga gula darah biasanya akan kembali normal setelah ibu hamil melahirkan.[17]
 
-1. Memiliki anggota keluarga yang mengidap diabetes tipe 1
+### Faktor Risiko Diabetes Melitus
+
+Setiap jenis diabetes mellitus memiliki faktor risiko yang berbeda-beda. Berikut ini faktor-faktor risiko diabetes tipe 1:
+
+1. Riwayat keluarga yang mengidap diabetes tipe 1
 2. Terkena infeksi virus
 3. Orang berkulit putih dipercaya lebih berisiko mengalami diabetes tipe 1 dibandingkan ras lain
 4. Bepergian ke daerah yang jauh dari khatulistiwa (ekuator)
-5. Usia. Meskipun diabetes tipe 1 bisa muncul pada usia berapapun, tapi penyakit ini banyak dialami oleh anak-anak berumur 4–7 tahun dan 10–14 tahun.
+5. Usia. Banyak dialami oleh anak-anak berumur 4–7 tahun dan 10–14 tahun.[17]
 
-Sedangkan faktor risiko diabetes mellitus tipe 2 adalah sebagai berikut:
+Faktor risiko diabetes mellitus tipe 2:
 
-1. Mengalami obesitas atau kelebihan berat badan.
-2. Memiliki riwayat keluarga dengan diabetes tipe 2.
-3. Kurang aktif bergerak. Aktivitas fisik bisa membantu seseorang untuk mengontrol berat badan, membakar glukosa sebagai energi, dan membuat sel tubuh lebih sensitif terhadap insulin. Itulah mengapa, orang yang kurang beraktivitas fisik akan lebih mudah terkena diabetes tipe 2.
-4. Usia. Risiko terkena diabetes tipe 2 akan meningkat seiring bertambahnya usia.
-5. Mengidap tekanan darah tinggi atau hipertensi.
-6. Memiliki kadar kolesterol dan trigliserida yang tidak normal. Orang yang memiliki kadar kolesterol baik atau HDL (high-density lipoprotein) yang rendah, tapi kadar trigliseridanya tinggi lebih berisiko mengalami diabetes tipe 2.
+1. Obesitas atau kelebihan berat badan.
+2. Riwayat keluarga dengan diabetes tipe 2.
+3. Kurang aktif bergerak.
+4. Usia.
+5. Tekanan darah tinggi atau hipertensi.
+6. Memiliki kadar kolesterol dan trigliserida yang tidak normal.
 7. Mengidap polycystic ovarian syndrome (PCOS). Khusus pada wanita, memiliki riwayat penyakit PCOS membuat seorang wanita berisiko tinggi mengalami diabetes tipe 2.
-8. Sedangkan pada ibu hamil, risiko mengalami diabetes gestasional semakin besar bila ibu mengidap diabetes tipe 2.
-
-Sumber : https://www.halodoc.com/artikel/12-faktor-ini-tingkatkan-risiko-diabetes-melitus
+8. Ibu hamil, risiko mengalami diabetes gestasional semakin besar bila ibu mengidap diabetes tipe 2.[17]
 
 ###Problem Statements
 Faktor - faktor yang mempengaruhi kemungkinan terkena diabetes adalah kehamilan, glukosa, tekanan darah, ketebalan kulit, insulin, berat badan terhadap kemungkinan terkena diabetes.
@@ -303,7 +305,7 @@ knn.fit(X_train, y_train)
 
 models.loc['train_mse','knn'] = mean_squared_error(y_pred = knn.predict(X_train), y_true=y_train)
 
-"""Disini sayang menggunakan n_neighbors=10 dan metric Euclidean untuk mengukur jarak antara titik.
+"""Paremeter menggunakan n_neighbors=10 dan metric Euclidean untuk mengukur jarak antara titik.
 
 ####Model Development dengan Random Forest
 """
@@ -364,11 +366,38 @@ ax.grid(zorder=0)
 
 """####Pengujian model"""
 
-prediksi = X_test.iloc[:1].copy()
-pred_dict = {'y_true':y_test[:1]}
+prediksi = X_test.iloc[:10].copy()
+pred_dict = {'outcome':y_test[:10]}
 for name, model in model_dict.items():
     pred_dict['prediksi_'+name] = model.predict(prediksi).round(1)
 
 pd.DataFrame(pred_dict)
 
-"""Terlihat bahwa prediksi dengan Random Forest (RF) memberikan hasil yang paling mendekati."""
+"""Dari tabel 10 terlihat bahwa prediksi dengan *Random Forest (RF)* memberikan hasil yang paling mendekati nilai Outcome.
+
+### Kesimpulan
+
+Keberhasilan proyek *predictive analytics* tidak hanya ditentukan oleh pemilihan algoritma machine learning saja, melainkan juga penerapan metodologi standar dalam mengelola seluruh tahapan atau siklus proyek.
+
+Dan dari percobaan yang telah dilakukan, maka dapat disimpulkan bahwa algoritma *Random Forest (RF)* merupakan algoritma terbaik untuk memprediksi apakah seseorang terindikasi terkena diabetes atau tidak berdasarkan dataset yang kita gunuakan untuk pelatihan model.
+
+### Daftar Refrensi
+1. *"About diabetes". World Health Organization*. Diarsipkan dari versi asli tanggal 31 March 2014. Diakses tanggal 4 April 2014.
+2. *"Diabetes Fact sheet N°312". WHO. October 2013*. Diarsipkan dari versi asli tanggal 26 August 2013. Diakses tanggal 25 March 2014.
+Kitabchi AE, Umpierrez GE, Miles JM, Fisher JN (July 2009).
+3. "Hyperglycemic crises in adult patients with diabetes". Diabetes Care. 32 (7): 1335–43. doi:10.2337/dc09-9032. PMC 2699725 alt=Dapat diakses gratis. PMID 19564476.
+4. Saedi, E; Gheini, MR; Faiz, F; Arami, MA (15 September 2016). "Diabetes mellitus and cognitive impairments". World Journal of Diabetes. 7 (17): 412–22. doi:10.4239/wjd.v7.i17.412. PMC 5027005 alt=Dapat diakses gratis. PMID 27660698.
+5. Shoback DG, Gardner D, ed. (2011). "Chapter 17". Greenspan's basic & clinical endocrinology (edisi ke-9th). New York: McGraw-Hill Medical. ISBN 978-0-07-162243-1.
+6. Norman A, Henry H (2015). Hormones. Elsevier. hlm. 136–137. ISBN 9780123694447.
+7. *RSSDI textbook of diabetes mellitus (edisi ke-Revised 2nd). Jaypee Brothers Medical Publishers*. 2012. hlm. 235. ISBN 978-93-5025-489-9. Diarsipkan dari versi asli tanggal 14 October 2015.
+8. *"The top 10 causes of death Fact sheet N°310". World Health Organization*. October 2013. Diarsipkan dari versi asli tanggal 30 May 2017.
+9. Rippe RS, Irwin JM, ed. (2010). *Manual of intensive care medicine* (edisi ke-5th). Wolters Kluwer Health/Lippincott Williams & Wilkins. hlm. 549. ISBN 978-0-7817-9992-8.
+10. Picot J, Jones J, Colquitt JL, Gospodarevskaya E, Loveman E, Baxter L, Clegg AJ (September 2009). *"The clinical effectiveness and cost-effectiveness of bariatric (weight loss) surgery for obesity: a systematic review and economic evaluation". Health Technology Assessment*. 13 (41): 1–190, 215–357, iii–iv. doi:10.3310/hta13410. PMID 19726018.
+11. Cash, Jill (2014). *Family Practice Guidelines* (edisi ke-3rd). Springer. hlm. 396. ISBN 978-0-8261-6875-7. Diarsipkan dari versi asli tanggal 31 October 2015.
+12. *"IDF DIABETES ATLAS Ninth Edition 2019"* (PDF). www.diabetesatlas.org (dalam bahasa Inggris). Diakses tanggal 18 May 2020.
+13. Vos T, Flaxman AD, Naghavi M, Lozano R, Michaud C, Ezzati M, et al. (December 2012). *"Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010". Lancet*. 380 (9859): 2163–96. doi:10.1016/S0140-6736(12)61729-2. PMC 6350784 alt=Dapat diakses gratis. PMID 23245607.
+14. *"Simple treatment to curb diabetes"*. January 20, 2014. Diarsipkan dari versi asli tanggal 2014-02-02. Diakses tanggal 2014-01-20.
+15. Breiman, L. 2022. Random Forest. *Machine Learning*. 45: 5-32.
+16.  Febryananda, A.R. 2022. Mengenal Teknik *Gradient Boosting* dalam Algoritma *Machine Learning.* Laboratorium Analisis Data dan Rekaya Kualitas. [link](https://lab_adrk.ub.ac.id/id/mengenal-teknik-gradient-boosting-dalam-algoritma-machine-learning/). [accessed May. 29 2023]
+17. https://www.halodoc.com/artikel/12-faktor-ini-tingkatkan-risiko-diabetes-melitus
+"""
