@@ -38,24 +38,21 @@ Selain kedua jenis diabetes tersebut, ada juga jenis diabetes khusus pada ibu ha
 
 ### Faktor Risiko Diabetes Melitus
 
-Setiap jenis diabetes mellitus memiliki faktor risiko yang berbeda-beda. Berikut ini faktor-faktor risiko diabetes tipe 1:
+Berikut adalah faktor risiko diabetes tipe 1:
+1. Riwayat keluarga pengidap diabetes miltus tipe 1.
+2. Infeksi virus.
+3. Orang kulit putih.
+5. Usia.[17]
 
-1. Riwayat keluarga yang mengidap diabetes tipe 1
-2. Terkena infeksi virus
-3. Orang berkulit putih dipercaya lebih berisiko mengalami diabetes tipe 1 dibandingkan ras lain
-4. Bepergian ke daerah yang jauh dari khatulistiwa (ekuator)
-5. Usia. Banyak dialami oleh anak-anak berumur 4–7 tahun dan 10–14 tahun.[17]
-
-Faktor risiko diabetes mellitus tipe 2:
-
+Berikut adalah faktor risiko diabetes mellitus tipe 2:
 1. Obesitas atau kelebihan berat badan.
 2. Riwayat keluarga dengan diabetes tipe 2.
-3. Kurang aktif bergerak.
+3. Kurang Olahraga.
 4. Usia.
-5. Tekanan darah tinggi atau hipertensi.
-6. Memiliki kadar kolesterol dan trigliserida yang tidak normal. 
-7. Mengidap polycystic ovarian syndrome (PCOS). Khusus pada wanita, memiliki riwayat penyakit PCOS membuat seorang wanita berisiko tinggi mengalami diabetes tipe 2.
-8. Ibu hamil, risiko mengalami diabetes gestasional semakin besar bila ibu mengidap diabetes tipe 2.[17]
+5. Tekanan darah tinggi.
+6. Kadar kolesterol tidak normal. 
+7. Polycystic ovarian syndrome (PCOS).
+8. Ibu hamil.[17]
 
 ### Problem Statements
 
@@ -493,7 +490,7 @@ Tabel 10. Hasil pengujian model
 | 1001    | 0            | 0.0         | 0.1               | 0.1 |
 
 
-Dari tabel 10 terlihat bahwa prediksi dengan *Random Forest (RF)* memberikan hasil yang paling mendekati nilai Outcome.
+Dari tabel 10 pada hasil pengujian terlihat bahwa prediksi dengan *Random Forest (RF)* memberikan hasil yang paling mendekati nilai Outcome.
 
 ### Kesimpulan
 
