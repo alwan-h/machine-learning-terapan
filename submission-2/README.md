@@ -425,630 +425,23 @@ Tabel 12. Data movie dengan fitur genre yang kompleks
 
 | # | userId | movieId | rating | timestamp | title      | genres                                    |
 |--------|---------|--------|-----------|------------|-------------------------------------------|---------|
-| 0      | 1       | 1      | 4.0       | 964982703  | Toy Story (1995)                          | Adventure,Animation|Children|Comedy|Fantasy |
-| 163062 | 517     | 1      | 4.0       | 1487954343 | Toy Story (1995)                          | Adventure|Animation|Children|Comedy|Fantasy |
-| 61034  | 213     | 1      | 3.5       | 1316196157 | Toy Story (1995)                          | Adventure|Animation|Children|Comedy|Fantasy |
-| 162164 | 514     | 1      | 4.0       | 1533872400 | Toy Story (1995)                          | Adventure|Animation|Children|Comedy|Fantasy |
-| 61202  | 214     | 1      | 3.0       | 853937855  | Toy Story (1995)                          | Adventure|Animation|Children|Comedy|Fantasy |
+| 0      | 1       | 1      | 4.0       | 964982703  | Toy Story (1995)                          | Adventure,Animation,Children,Comedy,Fantasy |
+| 163062 | 517     | 1      | 4.0       | 1487954343 | Toy Story (1995)                          | Adventure,Animation,Children,Comedy,Fantasy |
+| 61034  | 213     | 1      | 3.5       | 1316196157 | Toy Story (1995)                          | Adventure,Animation,Children,Comedy,Fantasy |
+| 162164 | 514     | 1      | 4.0       | 1533872400 | Toy Story (1995)                          | Adventure,Animation,Children,Comedy,Fantasy |
+| 61202  | 214     | 1      | 3.0       | 853937855  | Toy Story (1995)                          | Adventure,Animation,Children,Comedy,Fantasy |
 | ...    | ...     | ...    | ...       | ...        | ...                                       | ...                                         |
-| 54512  | 184     | 193581 | 4.0       | 1537109082 | Black Butler: Book of the Atlantic (2017) | Action|Animation|Comedy|Fantasy             |
-| 54514  | 184     | 193583 | 3.5       | 1537109545 | No Game No Life: Zero (2017)              | Animation|Comedy|Fantasy                    |
+| 54512  | 184     | 193581 | 4.0       | 1537109082 | Black Butler: Book of the Atlantic (2017) | Action,Animation,Comedy,Fantasy             |
+| 54514  | 184     | 193583 | 3.5       | 1537109545 | No Game No Life: Zero (2017)              | Animation,Comedy,Fantasy                    |
 | 54516  | 184     | 193585 | 3.5       | 1537109805 | Flint (2017)                              | Drama                                       |
 | 54518  | 184     | 193587 | 3.5       | 1537110021 | Bungo Stray Dogs: Dead Apple (2018)       | Action|Animation                            |
 | 102724 | 331     | 193609 | 4.0       | 1537157606 | Andrew Dice Clay: Dice Rules (1991)       | Comedy                                      |
 
 100836 rows × 6 columns
 
+Jumlah data movie   9724
 
-
- Jumlah data movie   9724
-
-
-
-Daftar array genre movie yang unik
-
-    array(['Adventure|Animation|Children|Comedy|Fantasy',
-           'Adventure|Children|Fantasy', 'Comedy|Romance',
-           'Comedy|Drama|Romance', 'Comedy', 'Action|Crime|Thriller',
-           'Adventure|Children', 'Action', 'Action|Adventure|Thriller',
-           'Comedy|Horror', 'Adventure|Animation|Children', 'Drama',
-           'Action|Adventure|Romance', 'Crime|Drama', 'Drama|Romance',
-           'Action|Comedy|Crime|Drama|Thriller', 'Comedy|Crime|Thriller',
-           'Crime|Drama|Horror|Mystery|Thriller', 'Drama|Sci-Fi',
-           'Children|Drama', 'Adventure|Drama|Fantasy|Mystery|Sci-Fi',
-           'Mystery|Sci-Fi|Thriller', 'Children|Comedy', 'Drama|War',
-           'Action|Crime|Drama', 'Action|Adventure|Fantasy',
-           'Comedy|Drama|Thriller', 'Mystery|Thriller',
-           'Animation|Children|Drama|Musical|Romance',
-           'Crime|Mystery|Thriller', 'Adventure|Drama', 'Drama|Thriller',
-           'Comedy|Crime', 'Action|Sci-Fi|Thriller',
-           'Action|Comedy|Horror|Thriller', 'Comedy|Drama', 'Documentary',
-           'Action|Crime|Drama|Thriller', 'Crime|Drama|Romance',
-           'Action|Adventure|Drama', 'Action|Thriller',
-           'Drama|Horror|Thriller', 'Comedy|Horror|Romance',
-           'Adventure|Comedy|Crime|Romance',
-           'Adventure|Children|Comedy|Musical', 'Action|Drama|War',
-           'Crime|Drama|Thriller', 'Action|Adventure|Comedy|Crime',
-           'Drama|Mystery', 'Drama|Mystery|Romance', 'Thriller',
-           'Adventure|Drama|IMAX', 'Action|Drama|Romance|War', 'Drama|Horror',
-           'Adventure|Drama|War', 'Comedy|War', 'Crime|Drama|Mystery',
-           'Action|Adventure|Mystery|Sci-Fi', 'Drama|Thriller|War',
-           'Action|Romance|Western', 'Crime|Film-Noir|Mystery|Thriller',
-           'Comedy|Crime|Drama', 'Action|Drama|Romance',
-           'Adventure|Children|Drama', 'Action|Adventure|Crime|Thriller',
-           'Action|Crime|Sci-Fi', 'Horror', 'Action|Children',
-           'Comedy|Horror|Thriller', 'Fantasy|Horror|Mystery',
-           'Comedy|Fantasy', 'Horror|Sci-Fi',
-           'Action|Crime|Drama|Mystery|Sci-Fi|Thriller',
-           'Drama|Musical|Romance', 'Drama|Fantasy',
-           'Action|Adventure|Sci-Fi', 'Western',
-           'Adventure|Comedy|Crime|Mystery', 'Adventure|Comedy',
-           'Action|Comedy|Romance', 'Animation|Children|Comedy|Romance',
-           'Drama|Musical', 'Children|Comedy|Fantasy', 'Comedy|Sci-Fi',
-           'Adventure|Children|Comedy|Fantasy|Romance',
-           'Drama|Fantasy|Romance', 'Drama|Romance|War|Western',
-           'Drama|Horror|Sci-Fi', 'Action|Crime',
-           'Action|Drama|Sci-Fi|Thriller', 'Comedy|Crime|Drama|Thriller',
-           'Action|Thriller|Western', 'Horror|Thriller', 'Animation|Children',
-           'Children|Drama|Fantasy|Mystery', 'Action|Drama|Thriller',
-           'Comedy|Drama|Fantasy', 'Film-Noir|Thriller',
-           'Action|Comedy|Sci-Fi', 'Adventure|Drama|Sci-Fi',
-           'Action|Crime|Horror', 'Children', 'Drama|Film-Noir|Romance',
-           'Drama|Mystery|Thriller', 'Action|Crime|Fantasy|Thriller',
-           'Comedy|Drama|Romance|War', 'Action|Comedy',
-           'Adventure|Children|Romance',
-           'Adventure|Animation|Children|Drama|Musical|IMAX',
-           'Drama|Horror|Mystery|Thriller', 'Action|Comedy|Crime|Fantasy',
-           'Adventure|Comedy|Western', 'Action|Romance|Thriller',
-           'Action|Adventure|Comedy|Romance|Thriller',
-           'Drama|Horror|Romance|Thriller', 'Drama|Romance|War',
-           'Action|Fantasy', 'Comedy|Thriller',
-           'Action|Comedy|Crime|Thriller', 'Horror|Sci-Fi|Thriller',
-           'Drama|Mystery|Romance|Thriller', 'Action|Comedy|Drama',
-           'Drama|Western', 'Action|Adventure|Crime|Drama|Romance|Thriller',
-           'Action|Comedy|War', 'Action|Adventure|Sci-Fi|Thriller',
-           'Action|Adventure|Comedy|Fantasy', 'Comedy|Western',
-           'Comedy|Mystery', 'Comedy|Drama|Romance|Thriller',
-           'Action|Children|Romance', 'Action|Drama|Sci-Fi', 'Action|Drama',
-           'Comedy|Mystery|Romance', 'Action|Drama|Mystery',
-           'Action|Crime|Drama|Sci-Fi|Thriller', 'Crime|Thriller',
-           'Comedy|Crime|Horror', 'Action|Adventure|Fantasy|Mystery',
-           'Comedy|Romance|Thriller',
-           'Action|Adventure|Children|Comedy|Fantasy|Sci-Fi',
-           'Action|Mystery|Thriller', 'Animation|Children|Fantasy|Musical',
-           'Action|Adventure|Comedy|Romance', 'Action|Drama|Western',
-           'Action|Adventure|Animation|Children|Fantasy',
-           'Comedy|Drama|Fantasy|Romance|Thriller',
-           'Adventure|Animation|Children|Comedy|Musical', 'Action|Sci-Fi',
-           'Adventure|Drama|Western', 'Crime|Horror|Thriller',
-           'Animation|Children|Drama|Fantasy|Musical',
-           'Animation|Children|Fantasy|Musical|Romance|IMAX',
-           'Adventure|Western', 'Action|Comedy|Crime', 'Fantasy|Horror',
-           'Action|Adventure|Animation|Horror|Sci-Fi', 'Action|Horror|Sci-Fi',
-           'Crime|Drama|Mystery|Thriller',
-           'Adventure|Animation|Children|Fantasy|Musical|Romance', 'Romance',
-           'Action|Crime|Drama|War', 'Action|Adventure|Mystery|Thriller',
-           'Adventure|Animation|Children|Fantasy|Musical', 'Comedy|Drama|War',
-           'Adventure|Animation|Children|Comedy|Fantasy|Sci-Fi',
-           'Adventure|Comedy|Sci-Fi', 'Drama|Mystery|Romance|Sci-Fi|Thriller',
-           'Action|Adventure|Comedy|War', 'Action|Adventure',
-           'Drama|Mystery|Western', 'Comedy|Fantasy|Sci-Fi',
-           'Adventure|Animation|Comedy', 'Drama|Fantasy|Horror|Thriller',
-           'Action|Adventure|Romance|Thriller', 'Animation|Sci-Fi',
-           'Animation|Children|Comedy', 'Horror|Mystery',
-           'Comedy|Fantasy|Romance|Sci-Fi', 'Action|Adventure|Drama|Thriller',
-           'Comedy|Fantasy|Musical', 'Crime|Drama|Romance|Thriller',
-           'Crime|Drama|Musical|Thriller', 'Sci-Fi|Thriller',
-           'Children|Drama|Fantasy', 'Adventure|Animation|Children|Musical',
-           'Adventure|Drama|Romance|War', 'Comedy|Musical|Romance',
-           'Musical|Romance', 'Comedy|Musical',
-           'Action|Adventure|Mystery|Romance|Thriller',
-           'Comedy|Crime|Mystery|Romance|Thriller', 'Film-Noir|Mystery',
-           'Comedy|Drama|Musical|Romance', 'Musical',
-           'Adventure|Children|Fantasy|Musical',
-           'Drama|Film-Noir|Mystery|Thriller', 'Film-Noir|Romance|Thriller',
-           'Mystery|Romance|Thriller', 'Crime|Mystery|Romance|Thriller',
-           'Adventure', 'Crime|Film-Noir|Mystery', 'Drama|Romance|Western',
-           'Children|Drama|Fantasy|Romance', 'Adventure|Comedy|Romance|War',
-           'Adventure|Comedy|Crime|Drama|Romance', 'Romance|War',
-           'Crime|Film-Noir', 'Children|Comedy|Western',
-           'Children|Comedy|Fantasy|Romance', 'Children|Comedy|Romance',
-           'Children|Comedy|Drama', 'Children|Comedy|Mystery',
-           'Animation|Children|Fantasy|Musical|Romance',
-           'Animation|Children|Musical', 'Children|Comedy|Fantasy|Musical',
-           'Animation|Children|Drama|Musical', 'Adventure|Children|Musical',
-           'Animation|Children|Drama', 'Action|Horror|Sci-Fi|Thriller',
-           'Documentary|Drama',
-           'Animation|Children|Comedy|Fantasy|Musical|Romance',
-           'Drama|Romance|Thriller', 'Children|Drama|Sci-Fi',
-           'Action|Romance', 'Adventure|Comedy|Fantasy',
-           'Animation|Children|Comedy|Crime',
-           'Animation|Comedy|Drama|Fantasy', 'Crime|Drama|Film-Noir',
-           'Documentary|Musical', 'Action|Adventure|Comedy|Fantasy|Romance',
-           'Fantasy|Sci-Fi', 'Action|Adventure|Horror|Sci-Fi',
-           'Action|Adventure|Western', 'Crime|Drama|Sci-Fi|Thriller',
-           'Film-Noir|Mystery|Thriller',
-           'Action|Adventure|Comedy|Fantasy|Horror',
-           'Adventure|Drama|Romance', 'Crime|Horror', 'Action|Comedy|Musical',
-           'Adventure|Animation|Children|Comedy|Sci-Fi',
-           'Drama|Mystery|Sci-Fi', 'Comedy|Fantasy|Horror',
-           'Crime|Drama|Film-Noir|Thriller', 'Crime|Film-Noir|Thriller',
-           'Action|Crime|Romance|Thriller', 'Drama|Sci-Fi|Thriller',
-           'Action|Adventure|Drama|Western', 'Comedy|Horror|Sci-Fi',
-           'Comedy|Musical|War', 'Action|Comedy|Fantasy|Horror',
-           'Action|Adventure|Drama|War',
-           'Action|Drama|Mystery|Romance|Thriller', 'Comedy|Fantasy|Romance',
-           'Crime|Thriller|War', 'Comedy|Mystery|Thriller',
-           'Comedy|Drama|Film-Noir', 'Action|Adventure|Animation|Sci-Fi',
-           'Action|Western', 'Fantasy|Horror|Romance|Thriller',
-           'Drama|Fantasy|Horror', 'Horror|Mystery|Thriller',
-           'Adventure|Children|Comedy', 'Adventure|Sci-Fi',
-           'Action|Mystery|Sci-Fi', 'Action|Comedy|Western', 'Action|Horror',
-           'Action|Comedy|Crime|Drama|Sci-Fi',
-           'Adventure|Animation|Comedy|Crime',
-           'Comedy|Horror|Mystery|Thriller', 'Action|Romance|War|Western',
-           'Comedy|Drama|Fantasy|Romance', 'Action|Adventure|Comedy|Thriller',
-           'Crime', 'Crime|Drama|Fantasy|Film-Noir|Mystery|Romance',
-           'Action|Comedy|Crime|Drama', 'Action|Romance|Sci-Fi|Thriller',
-           'Comedy|Drama|Mystery|Romance', 'Action|Adventure|Children',
-           'Comedy|Crime|Romance', 'Action|Adventure|Comedy',
-           'Action|Adventure|Comedy|Sci-Fi',
-           'Action|Adventure|Fantasy|Thriller', 'Children|Fantasy',
-           'Adventure|Romance', 'Action|Thriller|War',
-           'Children|Comedy|Romance|Sci-Fi', 'Romance|Thriller',
-           'Comedy|Drama|Sci-Fi',
-           'Adventure|Animation|Children|Drama|Musical',
-           'Action|Adventure|Drama|Sci-Fi', 'Action|Children|Comedy',
-           'Adventure|Film-Noir|Sci-Fi|Thriller',
-           'Crime|Drama|Fantasy|Thriller', 'Crime|Romance|Thriller',
-           'Crime|Drama|Mystery|Romance|Thriller', 'Documentary|IMAX',
-           'Comedy|Crime|Drama|Mystery|Thriller', 'Comedy|Documentary',
-           'Adventure|Children|Comedy|Fantasy', 'Crime|Drama|Romance|War',
-           'Adventure|Comedy|Drama', 'Adventure|Comedy|Romance',
-           'Adventure|Animation|Children|Comedy|Drama|Musical|Romance',
-           'Action|Crime|Mystery|Sci-Fi|Thriller',
-           'Comedy|Crime|Drama|Romance|Thriller',
-           'Animation|Children|Fantasy|War', 'Comedy|Drama|Musical',
-           'Adventure|Fantasy|Musical',
-           'Action|Adventure|Children|Comedy|Fantasy',
-           'Drama|Mystery|Sci-Fi|Thriller', 'Adventure|Comedy|Sci-Fi|Western',
-           'Children|Fantasy|Musical', 'Adventure|Animation|Children|Fantasy',
-           'Children|Sci-Fi', 'Children|Comedy|Sci-Fi',
-           'Action|Adventure|Children|Comedy', 'Adventure|Children|Sci-Fi',
-           'Action|Animation|Children|Crime',
-           'Children|Comedy|Fantasy|Horror',
-           'Adventure|Children|Comedy|Fantasy|Sci-Fi',
-           'Action|Crime|Drama|Mystery|Thriller', 'Film-Noir',
-           'Drama|Fantasy|Mystery', 'Animation|Children|Comedy|Musical',
-           'Animation|Children|Comedy|Musical|Romance',
-           'Children|Comedy|Musical', 'Children|Musical',
-           'Adventure|Comedy|Musical',
-           'Adventure|Animation|Children|Crime|Drama',
-           'Children|Drama|Fantasy|Mystery|Thriller',
-           'Adventure|Children|Fantasy|Western',
-           'Animation|Children|Comedy|Drama|Fantasy',
-           'Action|Crime|Mystery|Thriller',
-           'Adventure|Animation|Children|Drama|Fantasy',
-           'Adventure|Animation|Children|Drama', 'Adventure|Fantasy',
-           'Adventure|Animation|Children|Comedy',
-           'Adventure|Animation|Children|Musical|Western',
-           'Adventure|Fantasy|Romance', 'Adventure|Drama|Fantasy',
-           'Action|Comedy|Drama|Horror', 'Action|Horror|Thriller',
-           'Drama|Film-Noir|Thriller', 'Adventure|Drama|Mystery|Thriller',
-           'Horror|Mystery|Sci-Fi|Thriller', 'Drama|Fantasy|Thriller',
-           'Adventure|Drama|Fantasy|Romance', 'Sci-Fi',
-           'Drama|Fantasy|Mystery|Romance', 'Action|Sci-Fi|War',
-           'Fantasy|Horror|Thriller', 'Horror|Western',
-           'Action|Adventure|Fantasy|Horror',
-           'Adventure|Fantasy|Romance|Sci-Fi|Thriller',
-           'Comedy|Crime|Mystery', 'Action|Drama|Romance|Sci-Fi',
-           'Animation|Musical', 'Action|Adventure|Thriller|War',
-           'Comedy|Crime|Mystery|Thriller',
-           'Action|Adventure|Children|Fantasy|Mystery|Thriller',
-           'Action|Adventure|Children|Drama',
-           'Action|Adventure|Drama|Fantasy|Thriller', 'Horror|Mystery|Sci-Fi',
-           'Drama|Horror|Sci-Fi|Thriller', 'Action|Comedy|Romance|Thriller',
-           'Action|War', 'Adventure|Comedy|Thriller',
-           'Action|Sci-Fi|Thriller|Western', 'Drama|Romance|Sci-Fi|Thriller',
-           'Drama|Film-Noir',
-           'Action|Adventure|Comedy|Fantasy|Horror|Thriller',
-           'Action|Adventure|Crime|Sci-Fi|Thriller',
-           'Adventure|Drama|Mystery', 'Horror|Romance',
-           'Comedy|Horror|Musical|Sci-Fi', 'War', 'Comedy|Romance|Sci-Fi',
-           'Animation|Comedy|Musical', 'Action|Comedy|Sci-Fi|Western',
-           'Action|Comedy|Fantasy', 'Adventure|Drama|Thriller',
-           'Action|Adventure|Comedy|Fantasy|Mystery', 'Comedy|Horror|Musical',
-           'Adventure|Animation|Children|Drama|Sci-Fi',
-           'Drama|Horror|Mystery', 'Action|Mystery',
-           'Comedy|Horror|Romance|Thriller', 'Action|Drama|Romance|Thriller',
-           'Animation|Horror|Mystery|Thriller',
-           'Adventure|Children|Comedy|Drama', 'Adventure|Sci-Fi|Thriller',
-           'Adventure|Animation|Comedy|Fantasy|Musical',
-           'Animation|Children|Fantasy', 'Action|Adventure|Comedy|Drama|War',
-           'Crime|Drama|Western', 'Comedy|Crime|Drama|Fantasy',
-           'Drama|Film-Noir|Mystery|Romance', 'Musical|Romance|War',
-           'Adventure|Comedy|Fantasy|Sci-Fi', 'Drama|Fantasy|Musical',
-           'Action|Crime|Sci-Fi|Thriller',
-           'Adventure|Animation|Children|Comedy|Crime|Fantasy|Mystery',
-           'Action|Adventure|Animation|Drama|Fantasy',
-           'Adventure|Animation|Children|Fantasy|Sci-Fi',
-           'Fantasy|Horror|Mystery|Romance',
-           'Action|Fantasy|Horror|Mystery|Thriller', 'Drama|Romance|Sci-Fi',
-           'Animation|Children|Musical|IMAX', 'Action|Comedy|Horror',
-           'Action|Crime|Thriller|Western', 'Fantasy|Horror|Mystery|Thriller',
-           'Romance|Western', 'Adventure|Crime|Drama|Romance',
-           'Adventure|Crime|Drama', 'Animation|Comedy',
-           'Action|Children|Comedy|Fantasy|Sci-Fi', 'Action|Children|Fantasy',
-           'Action|Adventure|Drama|Thriller|Western',
-           'Crime|Horror|Mystery|Thriller', 'Action|Adventure|Comedy|Western',
-           'Action|Drama|Thriller|Western',
-           'Adventure|Animation|Fantasy|Sci-Fi',
-           'Comedy|Horror|Sci-Fi|Thriller', 'Adventure|Drama|Romance|Sci-Fi',
-           'Film-Noir|Horror|Mystery|Thriller',
-           'Action|Adventure|Animation|Children|Sci-Fi',
-           'Action|Fantasy|Horror|Sci-Fi|Thriller',
-           'Action|Comedy|Crime|Romance', 'Adventure|Horror|Sci-Fi',
-           'Adventure|Animation|Children|Sci-Fi', 'Adventure|Comedy|Crime',
-           'Action|Drama|War|Western',
-           'Action|Crime|Mystery|Romance|Thriller', 'Romance|Sci-Fi',
-           'Fantasy|Romance', 'Action|Adventure|Fantasy|Sci-Fi',
-           'Adventure|Comedy|Horror', 'Animation|Comedy|Fantasy',
-           'Action|Adventure|War', 'Action|Crime|Drama|Horror|Thriller',
-           'Crime|Mystery', 'Adventure|Comedy|Mystery|Romance',
-           'Adventure|Animation|Children|Comedy|Fantasy|Romance',
-           'Adventure|War|Western', 'Comedy|Drama|Mystery|Thriller',
-           'Comedy|Drama|Romance|Western', 'Action|Comedy|Sci-Fi|Thriller',
-           'Adventure|Documentary|IMAX', 'Animation|Drama|Sci-Fi|IMAX',
-           'Action|Comedy|Horror|Sci-Fi', 'Comedy|Musical|Sci-Fi',
-           'Drama|Musical|Mystery', 'Crime|Musical', 'Comedy|Musical|Western',
-           'Action|Animation|Comedy|Crime|Drama|Romance|Thriller',
-           'Action|Adventure|Drama|Romance',
-           'Comedy|Fantasy|Horror|Musical|Thriller', 'Crime|Horror|Mystery',
-           'Action|Adventure|Drama|Romance|Thriller',
-           'Action|Comedy|Romance|War', 'Action|Adventure|Comedy|Drama',
-           'Adventure|Thriller', 'Crime|Drama|Film-Noir|Mystery|Thriller',
-           'Action|Animation|Sci-Fi', 'Animation|Drama|Fantasy',
-           'Drama|Fantasy|Mystery|Sci-Fi',
-           'Drama|Fantasy|Horror|Thriller|War', 'Fantasy|Mystery|Thriller',
-           'Action|Adventure|Comedy|Drama|Romance|Thriller',
-           'Mystery|Romance|Sci-Fi|Thriller',
-           'Adventure|Crime|Drama|Thriller', 'Comedy|Drama|Mystery',
-           'Animation|Fantasy', 'Drama|Fantasy|Horror|Mystery|Thriller',
-           'Drama|Fantasy|Mystery|Romance|Thriller',
-           'Animation|Fantasy|Horror|Sci-Fi', 'Documentary|War',
-           'Children|Horror|Mystery|Thriller', 'Musical|Western',
-           'Action|Adventure|Sci-Fi|IMAX',
-           'Adventure|Animation|Children|Western',
-           'Adventure|Children|Comedy|Fantasy|Mystery',
-           'Adventure|Drama|Horror|Mystery|Thriller',
-           'Comedy|Sci-Fi|Thriller', 'Action|Animation|Children|Comedy',
-           'Children|Drama|Musical', 'Comedy|Drama|Fantasy|Sci-Fi',
-           'Action|Adventure|Fantasy|Romance',
-           'Comedy|Crime|Romance|Thriller', 'Adventure|War',
-           'Comedy|Crime|Musical|Mystery', 'Adventure|Animation|Fantasy',
-           'Animation|Comedy|War', 'Action|Adventure|Comedy|Crime|Drama',
-           'Animation|Drama|War', 'Documentary|Horror',
-           'Action|Horror|Mystery|Sci-Fi', 'Action|Comedy|Documentary',
-           'Adventure|Animation|Children|Sci-Fi|IMAX', 'Comedy|Drama|Horror',
-           'Animation|Children|Drama|Fantasy', 'Comedy|Crime|Drama|Musical',
-           'Action|Adventure|Animation|Fantasy|Sci-Fi',
-           'Action|Adventure|Crime|Drama|Thriller',
-           'Comedy|Crime|Drama|Romance', 'Comedy|Documentary|Musical',
-           'Action|Animation|Sci-Fi|Thriller',
-           'Adventure|Children|Comedy|Mystery', 'Mystery|Sci-Fi',
-           'Adventure|Children|Comedy|Fantasy|Musical',
-           'Action|Adventure|Animation|Children|Fantasy|Sci-Fi',
-           'Action|Adventure|Sci-Fi|Thriller|IMAX',
-           'Action|Drama|Horror|Sci-Fi|Thriller', 'Drama|War|Western',
-           'Comedy|Crime|Mystery|Romance', 'Comedy|War|Western',
-           'Action|Adventure|Comedy|Crime|Thriller', 'Action|Fantasy|Sci-Fi',
-           'Action|Comedy|Thriller', 'Comedy|Crime|Drama|War',
-           'Adventure|Comedy|Crime|Thriller',
-           'Action|Adventure|Children|Fantasy',
-           'Drama|Fantasy|Musical|Romance', 'Animation|Drama|Romance',
-           'Comedy|Romance|Sci-Fi|Thriller', 'Action|Fantasy|Horror',
-           'Fantasy|Horror|Sci-Fi|Thriller', 'Comedy|Musical|Romance|Western',
-           'Drama|Fantasy|Sci-Fi', 'Children|Comedy|Crime|Musical',
-           'Action|Adventure|Animation|Fantasy', 'Crime|Documentary',
-           'Adventure|Comedy|Drama|Fantasy|Mystery|Sci-Fi|Thriller',
-           'Action|Animation|Children|Fantasy', 'Comedy|Mystery|Sci-Fi',
-           'Adventure|Thriller|Western', 'Comedy|Crime|Drama|Mystery|Romance',
-           'Action|Crime|Fantasy|Sci-Fi|Thriller', 'Crime|Fantasy|Horror',
-           'Action|Drama|Horror|Thriller', 'Comedy|Fantasy|Horror|Thriller',
-           'Action|Drama|Romance|Western',
-           'Adventure|Animation|Drama|Fantasy|Sci-Fi',
-           'Animation|Drama|Sci-Fi|War', 'Action|Adventure|Drama|Fantasy',
-           'Adventure|Drama|Romance|Thriller|War',
-           'Crime|Drama|Film-Noir|Romance|Thriller',
-           'Drama|Film-Noir|Mystery',
-           'Action|Comedy|Crime|Drama|Horror|Thriller',
-           'Adventure|Documentary', 'Action|Adventure|Children|Comedy|Crime',
-           'Animation|Comedy|Fantasy|Musical',
-           'Action|Adventure|Children|Comedy|Mystery', 'Action|Drama|Horror',
-           'Musical|Romance|Western', 'Action|Drama|Thriller|War',
-           'Comedy|Crime|Drama|Musical|Mystery|Romance',
-           'Adventure|Comedy|War', 'Fantasy|Musical|Romance',
-           'Drama|Thriller|Western', 'Crime|Horror|Sci-Fi',
-           'Animation|Fantasy|Thriller', 'Children|Comedy|Fantasy|Sci-Fi',
-           'Mystery', 'Action|Adventure|Animation|Comedy|Crime|Mystery',
-           'Adventure|Animation|Children|Comedy|Musical|Romance',
-           'Action|Adventure|Drama|Sci-Fi|Thriller', 'Adventure|Fantasy|IMAX',
-           'Action|Crime|Horror|Mystery|Thriller', 'Comedy|Fantasy|Thriller',
-           'Animation|Comedy|Drama|Fantasy|Sci-Fi',
-           'Comedy|Documentary|Drama', 'Crime|Drama|Film-Noir|Romance',
-           'Action|Adventure|Drama|Romance|Thriller|Western',
-           'Crime|Drama|Horror', 'Adventure|Comedy|Fantasy|Musical',
-           'Adventure|Animation|Drama', 'Comedy|Drama|Fantasy|Mystery',
-           'Action|Crime|Fantasy', 'Comedy|Drama|Sci-Fi|War',
-           'Adventure|Fantasy|Sci-Fi',
-           'Adventure|Drama|Horror|Sci-Fi|Thriller',
-           'Action|Adventure|Animation|Comedy',
-           'Action|Adventure|Animation|Children|Comedy',
-           'Adventure|Animation|Children|Fantasy|IMAX',
-           'Action|Adventure|Drama|Mystery|Thriller',
-           'Action|Fantasy|Horror|Thriller', 'Fantasy',
-           'Crime|Documentary|War', 'Children|Comedy|Musical|Romance',
-           'Drama|Horror|War', 'Action|Adventure|Comedy|Drama|Romance|War',
-           'Fantasy|Western', 'Adventure|Comedy|Horror|Romance',
-           'Action|Adventure|Animation|Children|Comedy|Fantasy',
-           'Action|Adventure|Children|Crime|Mystery|Thriller',
-           'Adventure|Children|Fantasy|Sci-Fi',
-           'Action|Fantasy|Horror|Romance', 'Animation|Fantasy|Mystery',
-           'Action|Animation|Crime|Drama|Film-Noir|Mystery|Sci-Fi|Thriller',
-           'Animation|Drama', 'Action|Fantasy|Sci-Fi|Thriller|War',
-           'Adventure|Animation|Comedy|Fantasy|Romance',
-           'Drama|Romance|Thriller|War',
-           'Adventure|Drama|Fantasy|Horror|Sci-Fi',
-           'Drama|Fantasy|Horror|Mystery|Sci-Fi|Thriller', 'Action|Animation',
-           'Adventure|Animation|Children|Musical|Romance',
-           'Action|Documentary|Drama|Thriller',
-           'Action|Adventure|Comedy|Sci-Fi|Thriller',
-           'Action|Adventure|Drama|Fantasy|Romance',
-           'Action|Animation|Drama|Fantasy|Sci-Fi',
-           'Drama|Fantasy|Romance|Sci-Fi',
-           'Action|Animation|Crime|Sci-Fi|Thriller',
-           'Drama|Horror|Mystery|Romance|Thriller',
-           'Action|Comedy|Crime|Fantasy|Thriller',
-           'Crime|Drama|Mystery|Thriller|War', 'Comedy|Drama|Romance|Sci-Fi',
-           'Action|Animation|Horror', 'Comedy|Crime|Horror|Mystery|Thriller',
-           'Comedy|Fantasy|Mystery|Sci-Fi',
-           'Comedy|Crime|Drama|Sci-Fi|Thriller',
-           'Action|Comedy|Horror|Musical', 'Drama|Sci-Fi|War',
-           'Action|Animation|Drama|Sci-Fi',
-           'Action|Comedy|Horror|Sci-Fi|Thriller|Western',
-           'Action|Comedy|Drama|War', 'Drama|Mystery|Romance|War',
-           'Action|Animation|Drama|Sci-Fi|Thriller',
-           'Children|Comedy|Crime|Drama|Fantasy', 'Action|Horror|Sci-Fi|War',
-           'Animation|Drama|Mystery|Sci-Fi|Thriller',
-           'Action|Drama|Fantasy|Sci-Fi', 'Comedy|Crime|Drama|Horror|Mystery',
-           'Adventure|Children|Comedy|Fantasy|IMAX',
-           'Drama|Horror|Mystery|Sci-Fi|Thriller',
-           'Animation|Fantasy|Sci-Fi|War', 'Action|Animation|Fantasy|Sci-Fi',
-           'Action|Adventure|Crime|Drama',
-           'Action|Adventure|Comedy|Crime|Romance|Thriller',
-           'Action|Adventure|Drama|Romance|War',
-           'Adventure|Animation|Fantasy|Romance',
-           'Action|Fantasy|Horror|Mystery|Sci-Fi|Thriller',
-           'Adventure|Comedy|Crime|Drama|Mystery|Thriller',
-           'Comedy|Crime|Drama|Mystery', 'Comedy|Crime|Musical',
-           'Adventure|Animation|Children|Comedy|Fantasy|Sci-Fi|IMAX',
-           'Adventure|Comedy|Documentary', 'Comedy|Crime|Drama|Western',
-           'Adventure|Drama|War|Western', 'Animation|Fantasy|Sci-Fi|Thriller',
-           'Action|Crime|Film-Noir|Mystery|Thriller',
-           'Animation|Comedy|Sci-Fi', 'Animation|Fantasy|Horror',
-           'Children|Documentary', 'Action|Crime|IMAX',
-           'Adventure|Animation|Children|Comedy|Fantasy|War',
-           'Action|Adventure|Horror|Mystery|Sci-Fi|Thriller',
-           'Action|Crime|Drama|Thriller|War',
-           'Fantasy|Mystery|Romance|Thriller', 'Crime|Drama|Horror|Thriller',
-           'Animation|Comedy|Fantasy|Musical|Romance',
-           'Adventure|Children|Drama|Fantasy',
-           'Action|Horror|Mystery|Thriller',
-           'Adventure|Comedy|Fantasy|Horror',
-           'Action|Adventure|Animation|Children|Comedy|Sci-Fi',
-           'Adventure|Drama|Horror|Thriller',
-           'Adventure|Fantasy|Thriller|IMAX', 'Crime|Drama|Thriller|War',
-           'Action|Adventure|Comedy|Drama|Romance',
-           'Animation|Drama|Romance|Sci-Fi', 'Fantasy|Mystery|Western',
-           'Adventure|Comedy|Drama|Fantasy', 'Action|Comedy|Crime|Western',
-           'Action|Crime|Drama|Horror', 'Action|Fantasy|Sci-Fi|Thriller',
-           'Action|Drama|Fantasy|Horror|Mystery|Sci-Fi|Thriller',
-           'Action|Animation|Children|Sci-Fi', 'Action|Sci-Fi|Thriller|IMAX',
-           'Comedy|Fantasy|Horror|Sci-Fi', 'Action|Crime|Mystery',
-           'Crime|Drama|Film-Noir|Mystery',
-           'Action|Animation|Film-Noir|Sci-Fi|Thriller',
-           'Action|Adventure|Thriller|IMAX',
-           'Adventure|Comedy|Drama|Fantasy|Romance',
-           'Children|Comedy|Drama|Musical|Romance',
-           'Comedy|Documentary|Romance', 'Animation|Children|Fantasy|Mystery',
-           'Comedy|Fantasy|Mystery', 'Action|Comedy|Fantasy|IMAX',
-           'Adventure|Animation|Children|Comedy|Fantasy|IMAX',
-           'Adventure|Animation|Comedy|Fantasy|Romance|Sci-Fi',
-           'Crime|Drama|Musical', 'Adventure|Comedy|Sci-Fi|Thriller',
-           'Adventure|Animation|Children|Comedy|IMAX',
-           'Documentary|Drama|War', 'Crime|Western',
-           'Action|Adventure|Crime|Drama|Thriller|War',
-           'Children|Comedy|Drama|Fantasy', 'Drama|Fantasy|Horror|Romance',
-           'Action|Fantasy|Thriller', 'Action|Comedy|Crime|Mystery',
-           'Action|Comedy|Drama|Horror|Thriller', 'Action|Fantasy|War|IMAX',
-           'Comedy|Drama|Horror|Sci-Fi|Thriller',
-           'Drama|Fantasy|Mystery|Thriller',
-           'Action|Crime|Horror|Sci-Fi|Thriller',
-           'Adventure|Drama|Sci-Fi|Thriller',
-           'Action|Adventure|Animation|Comedy|Fantasy|Mystery|Sci-Fi',
-           'Crime|Drama|Fantasy|Mystery|Thriller',
-           'Action|Crime|Horror|Thriller', 'Animation|Mystery|Sci-Fi',
-           'Adventure|Crime|Thriller',
-           'Action|Adventure|Crime|Horror|Thriller',
-           'Adventure|Drama|Fantasy|IMAX', 'Adventure|Comedy|Fantasy|Romance',
-           'Action|Adventure|Fantasy|War', 'Action|Crime|Drama|Western',
-           'Action|Adventure|Comedy|Drama|Thriller',
-           'Action|Adventure|Animation|Crime|Fantasy',
-           'Action|Adventure|Animation|Fantasy|IMAX',
-           'Comedy|Drama|Sci-Fi|Thriller',
-           'Adventure|Animation|Children|Comedy|Fantasy|Musical|Romance',
-           'Action|Horror|Sci-Fi|Thriller|IMAX',
-           'Drama|Horror|Musical|Thriller', 'Action|Mystery|Sci-Fi|Thriller',
-           'Adventure|Animation|Drama|Horror',
-           'Animation|Comedy|Drama|Romance|Sci-Fi', 'Crime|Sci-Fi',
-           'Adventure|Children|Drama|Fantasy|IMAX',
-           'Adventure|Romance|Thriller', 'Crime|Drama|War',
-           'Action|Crime|Drama|IMAX', 'Documentary|Musical|IMAX',
-           'Action|Children|Sci-Fi|IMAX',
-           'Action|Animation|Children|Comedy|IMAX',
-           'Comedy|Crime|Drama|Horror', 'Action|Comedy|Drama|Thriller',
-           'Adventure|Animation|Children|Romance|Sci-Fi',
-           'Action|Adventure|Comedy|Crime|Fantasy',
-           'Action|Animation|Comedy|Romance|Sci-Fi',
-           'Children|Comedy|Drama|Mystery',
-           'Animation|Children|Comedy|Fantasy|Musical',
-           'Action|Adventure|Horror|Sci-Fi|Thriller',
-           'Adventure|Children|Comedy|Romance|Sci-Fi',
-           'Action|Comedy|Fantasy|Horror|Thriller',
-           'Action|Drama|Mystery|Sci-Fi|Thriller|IMAX',
-           'Adventure|Fantasy|Thriller', 'Action|Animation|Crime',
-           'Adventure|Comedy|Drama|Romance',
-           'Animation|Documentary|Drama|War',
-           'Action|Comedy|Fantasy|Thriller', 'Action|Animation|Comedy|Horror',
-           'Action|Crime|Thriller|IMAX', 'Animation|Comedy|Fantasy|Sci-Fi',
-           'Action|Adventure|Animation|Comedy|Fantasy|Sci-Fi',
-           'Action|Adventure|Animation|Children|Comedy|IMAX',
-           'Children|Fantasy|Musical|Romance',
-           'Drama|Fantasy|Romance|Thriller',
-           'Adventure|Animation|Comedy|Fantasy', 'Drama|Sci-Fi|Thriller|IMAX',
-           'Action|Adventure|Animation', 'Action|Animation|Comedy|Sci-Fi',
-           'Animation', 'Adventure|Comedy|Mystery',
-           'Comedy|Drama|Musical|Sci-Fi', 'Comedy|Crime|Horror|Thriller',
-           'Action|Drama|Mystery|Sci-Fi|Thriller', 'Animation|Sci-Fi|IMAX',
-           'Drama|Fantasy|Sci-Fi|Thriller', 'Action|Comedy|IMAX',
-           'Adventure|Fantasy|Musical|Romance',
-           'Action|Animation|Mystery|Sci-Fi',
-           'Action|Adventure|Animation|Drama',
-           'Action|Adventure|Comedy|Horror',
-           'Action|Adventure|Animation|Children|Comedy|Romance',
-           'Action|Adventure|Animation|Horror',
-           'Adventure|Fantasy|Mystery|Romance|IMAX',
-           'Adventure|Children|Fantasy|Sci-Fi|Thriller',
-           'Comedy|Documentary|Drama|Romance', 'Adventure|Animation|Sci-Fi',
-           'Animation|Children|Fantasy|IMAX',
-           'Action|Animation|Comedy|Horror|Thriller',
-           'Animation|Comedy|Drama',
-           'Action|Adventure|Drama|Fantasy|Romance|Sci-Fi|Thriller',
-           'Action|Comedy|Drama|Romance',
-           'Adventure|Animation|Children|Comedy|Crime',
-           'Animation|Children|Drama|Fantasy|IMAX',
-           'Animation|Children|Comedy|Fantasy',
-           'Drama|Fantasy|Horror|Romance|Thriller',
-           'Action|Adventure|Animation|Comedy|Thriller',
-           'Crime|Drama|Fantasy|Horror|Thriller', 'Children|Drama|Romance',
-           'Horror|Thriller|Western', 'Comedy|Musical|Sci-Fi|Western',
-           'Action|Adventure|Fantasy|Romance|IMAX',
-           'Fantasy|Romance|Thriller|IMAX',
-           'Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX',
-           'Action|Children|Drama', 'Action|Comedy|Fantasy|Musical|Romance',
-           'Documentary|Drama|Mystery', 'Adventure|Animation|Fantasy|IMAX',
-           'Documentary|Mystery',
-           'Action|Adventure|Comedy|Crime|Drama|Film-Noir|Horror|Mystery|Thriller|Western',
-           'Horror|IMAX', 'Action|Animation|Children|Comedy|Sci-Fi|IMAX',
-           'Action|Adventure|Fantasy|IMAX',
-           'Animation|Children|Comedy|Fantasy|Musical|Romance|IMAX',
-           'Crime|Romance', 'Adventure|Documentary|Western',
-           'Action|Comedy|Crime|Fantasy|Thriller|IMAX',
-           'Action|Fantasy|Western', 'Action|Sci-Fi|Thriller|Western|IMAX',
-           'Action|Adventure|Animation|Children|Comedy|Western',
-           'Romance|Sci-Fi|Thriller', 'Adventure|Animation|Comedy|Sci-Fi',
-           'Action|Adventure|Animation|Children|Comedy|Sci-Fi|IMAX',
-           'Action|Fantasy|Thriller|IMAX', 'Animation|Children|Comedy|Horror',
-           'Action|Adventure|Drama|Fantasy|IMAX',
-           'Action|Crime|Drama|Thriller|IMAX', 'Drama|Mystery|War',
-           'Action|Adventure|Sci-Fi|Thriller|War',
-           'Mystery|Sci-Fi|Thriller|IMAX', 'Action|Adventure|Sci-Fi|War|IMAX',
-           'Action|Adventure|Drama|Fantasy|Mystery|IMAX',
-           'Horror|Thriller|IMAX', 'Sci-Fi|Thriller|IMAX',
-           'Action|Drama|Sci-Fi|IMAX', 'Crime|Sci-Fi|Thriller',
-           'Action|Drama|Mystery|Thriller',
-           'Adventure|Animation|Comedy|Fantasy|IMAX',
-           'Action|Animation|Mystery|IMAX', 'Children|Drama|Mystery',
-           'Action|Drama|Fantasy', 'Animation|Children|Comedy|IMAX',
-           'Animation|Children|Comedy|Drama', 'Action|Crime|Film-Noir',
-           'Action|Adventure|Crime|IMAX',
-           'Action|Adventure|Drama|Thriller|IMAX',
-           'Action|Adventure|Comedy|Crime|Mystery|Thriller',
-           'Action|Fantasy|Horror|IMAX', 'Crime|Drama|Fantasy',
-           'Action|Adventure|Comedy|Sci-Fi|IMAX', 'Action|Adventure|Horror',
-           'Crime|Thriller|Western', 'Animation|Fantasy|Musical|IMAX',
-           'Action|Animation|Fantasy', 'Comedy|Horror|IMAX',
-           'Action|Comedy|Sci-Fi|IMAX', 'Action|Horror|Sci-Fi|IMAX',
-           'Action|Adventure|Animation|Children',
-           'Action|Adventure|Animation|Sci-Fi|Thriller',
-           'Comedy|Drama|Musical|IMAX', 'Children|Musical|Mystery',
-           'Drama|Fantasy|Musical|Mystery|Sci-Fi',
-           'Animation|Comedy|Horror|IMAX', 'Drama|Sci-Fi|IMAX',
-           'Action|Adventure|Comedy|Documentary|Fantasy',
-           'Action|Adventure|Crime', 'Children|Crime|Drama',
-           'Adventure|Drama|Fantasy|Romance|IMAX', 'Animation|Comedy|Romance',
-           'Drama|Musical|Romance|IMAX',
-           'Adventure|Comedy|Fantasy|Romance|IMAX',
-           'Animation|Comedy|Horror|Musical', 'Action|Animation|Comedy',
-           'Children|Horror|Sci-Fi', 'Action|Drama|IMAX',
-           'Documentary|Fantasy', 'Action|Adventure|Fantasy|Sci-Fi|IMAX',
-           'Action|Drama|Horror|IMAX', 'Action|Drama|Thriller|IMAX',
-           'Action|Adventure|Western|IMAX', 'Drama|Fantasy|Thriller|War',
-           'Action|IMAX', 'Action|Sci-Fi|IMAX',
-           'Adventure|Comedy|Musical|Sci-Fi', 'Adventure|Drama|Thriller|IMAX',
-           'Children|Drama|War',
-           'Adventure|Animation|Comedy|Fantasy|Musical|Romance',
-           'Action|Animation|Drama', 'Drama|Horror|Romance',
-           'Action|Animation|Fantasy|IMAX', 'Adventure|Romance|Sci-Fi|IMAX',
-           'Adventure|Animation|Children|Comedy|Drama|Romance',
-           'Action|Fantasy|Sci-Fi|IMAX', 'Action|Crime|Sci-Fi|IMAX',
-           'Animation|Comedy|Drama|Romance', 'Sci-Fi|IMAX',
-           'Animation|Romance', 'Action|Drama|War|IMAX',
-           'Action|Animation|Children|Comedy|Musical',
-           'Action|Adventure|Children|IMAX', 'Action|Animation|Children',
-           'Animation|Drama|Fantasy|Mystery',
-           'Action|Animation|Crime|Thriller', 'Documentary|Drama|Musical',
-           '(no genres listed)', 'Adventure|Animation',
-           'Adventure|Animation|Romance',
-           'Animation|Children|Comedy|Musical|Sci-Fi',
-           'Action|Adventure|Comedy|Drama|Fantasy|Thriller',
-           'Documentary|Drama|Thriller', 'Adventure|Mystery|Thriller',
-           'Horror|Romance|Thriller', 'Animation|Children|Mystery',
-           'Comedy|Drama|Fantasy|Mystery|Romance',
-           'Crime|Drama|Horror|Mystery', 'Adventure|Romance|Sci-Fi',
-           'Animation|Documentary', 'Horror|Sci-Fi|Western',
-           'Action|Adventure|Children|Comedy|Sci-Fi',
-           'Action|Adventure|Animation|Comedy|Sci-Fi',
-           'Horror|Romance|Sci-Fi',
-           'Action|Adventure|Children|Mystery|Sci-Fi', 'Comedy|Crime|Sci-Fi',
-           'Action|Comedy|Fantasy|Sci-Fi',
-           'Adventure|Animation|Children|Comedy|Drama|Fantasy',
-           'Adventure|Children|Comedy|Sci-Fi',
-           'Action|Animation|Crime|Sci-Fi', 'Action|Adventure|Romance|Sci-Fi',
-           'Action|Crime|Drama|Sci-Fi',
-           'Animation|Children|Comedy|Drama|Romance',
-           'Action|Fantasy|Mystery', 'Comedy|Horror|Mystery',
-           'Comedy|Crime|Fantasy', 'Animation|Horror|Mystery',
-           'Comedy|Romance|Western', 'Adventure|Drama|Fantasy|Sci-Fi',
-           'Adventure|Children|Drama|Sci-Fi',
-           'Adventure|Children|Comedy|Drama|Fantasy|Sci-Fi',
-           'Animation|Fantasy|Horror|Mystery',
-           'Adventure|Animation|Fantasy|Horror|Sci-Fi',
-           'Action|Animation|Crime|Drama',
-           'Action|Adventure|Animation|Drama|Fantasy|Sci-Fi',
-           'Action|Animation|Mystery', 'Animation|Drama|Sci-Fi',
-           'Animation|Drama|Fantasy|Romance',
-           'Action|Adventure|Comedy|Fantasy|Sci-Fi|Thriller',
-           'Action|Adventure|Fantasy|Horror|Thriller', 'Comedy|Sci-Fi|War',
-           'Comedy|Mystery|Romance|Thriller', 'Fantasy|Horror|Sci-Fi|Western',
-           'Animation|Crime|Drama', 'Adventure|Mystery|Sci-Fi|Thriller',
-           'Action|Comedy|Crime|Horror', 'Action|Adventure|Children|Sci-Fi',
-           'Action|Adventure|Comedy|Fantasy|Sci-Fi',
-           'Action|Animation|Comedy|Fantasy'], dtype=object)
-
-
-
-Terlihat pada data di atas genre pada movie terlalu kompleks sehingga akan disederhanakan fitur genre dengan hanya mengambil genre yang pertama saja
+Genre pada movie terlalu kompleks sehingga akan disederhanakan fitur genre dengan hanya mengambil genre yang pertama saja
 
 
 Tabel 13. Data movie dengan fitur genre baru
@@ -1148,6 +541,8 @@ Tabel 17. Sampel data movie
 
 ### TF-IDF Vectorizer
 
+Metode TF-IDF merupakan suatu cara untuk memberikan bobot hubungan suatu kata (term) terhadap dokumen.
+
 Pada tahap ini, akan dibuat sistem rekomendasi sederhana berdasarkan genre film menggunakan TF-IDF Vectoriczer
 
 
@@ -1192,7 +587,11 @@ Output matriks di atas menujukan movie yang berjudul *Andromeda Strain, The (197
 
 ### *Cosine Similarity*
 
-Menghitung derajat kesamaan (similarity degree) antar restoran dengan teknik cosine similarity. Keluarannya berupa matriks kesamaan dalam bentuk array.
+Metode Cosine Similarity adalah mengukur kemiripan antara
+dua dokumen atau teks. Pada Cosine Similarity dokumen atau
+teks dianggap sebagai vector.
+
+Menghitung derajat kesamaan (similarity degree) antar movie dengan teknik cosine similarity. Keluarannya berupa matriks kesamaan dalam bentuk array.
 
 kemudian melihat matriks kesamaan setiap movie dengan menampilkan title movie dalam 5 sampel kolom (axis = 1) dan 10 sampel baris (axis=0).
 
@@ -1227,7 +626,7 @@ Angka 1.0 ymengindikasikan bahwa movie pada kolom X (horizontal) memiliki kesama
 Membuat fungsi resto_recommendations dengan beberapa parameter sebagai berikut:
 
 - title : Nama film (index kemiripan dataframe).
-- similarity_data : Dataframe mengenai similarity yang telah kita definisikan sebelumnya.
+- similarity_data : Dataframe mengenai similarity yang telah didefinisikan sebelumnya.
 - items : Nama dan fitur yang digunakan untuk mendefinisikan kemiripan, dalam hal ini adalah 'title' dan 'genre'.
 - k : Banyak rekomendasi yang ingin diberikan.
 
@@ -1238,8 +637,8 @@ dalam kasus ini akan dicari rekomendasi berdasarkan title film *Felon (2008)*
 
 
 Tabel 20. Hasil rekomendasi film
-| title | genre                                             |
-|-------|---------------------------------------------------|
+| # | title | genre                                             |
+|-------|---------------------------------------------------|-------|
 | 0     | Wolf Creek (2005)                                 | Crime |
 | 1     | Joint Security Area (Gongdong gyeongbi guyeok ... | Crime |
 | 2     | Entrapment (1999)                                 | Crime |
@@ -1274,7 +673,7 @@ Tabel 21. Daftar data rating
 
 ### *Data Preparation*
 
-Berikut adalah hal-hal yang telah kita lakukan pada tahap persiapan:
+Berikut adalah hal-hal yang telah dilakukan pada tahap persiapan:
 
 - Memahami data rating.
 - Menyandikan (encode) fitur ‘userId’ dan 'movieId' ke dalam indeks integer.
@@ -1324,122 +723,10 @@ Pada tahap ini, model menghitung skor kecocokan antara pengguna dan movie dengan
 
 Model ini menggunakan Binary Crossentropy untuk menghitung loss function, Adam (Adaptive Moment Estimation) sebagai optimizer, dan root mean squared error (RMSE) sebagai metrics evaluation.
 
-Proses training.
-
-     Epoch 1/50
-    8067/8067 [==============================] - 67s 8ms/step - loss: 0.5979 - root_mean_squared_error: 0.1902 - val_loss: 0.6068 - val_root_mean_squared_error: 0.1991
-    Epoch 2/50
-    8067/8067 [==============================] - 70s 9ms/step - loss: 0.5963 - root_mean_squared_error: 0.1882 - val_loss: 0.6064 - val_root_mean_squared_error: 0.1986
-    Epoch 3/50
-    8067/8067 [==============================] - 72s 9ms/step - loss: 0.5950 - root_mean_squared_error: 0.1867 - val_loss: 0.6060 - val_root_mean_squared_error: 0.1980
-    Epoch 4/50
-    8067/8067 [==============================] - 66s 8ms/step - loss: 0.5940 - root_mean_squared_error: 0.1855 - val_loss: 0.6055 - val_root_mean_squared_error: 0.1973
-    Epoch 5/50
-    8067/8067 [==============================] - 65s 8ms/step - loss: 0.5934 - root_mean_squared_error: 0.1848 - val_loss: 0.6057 - val_root_mean_squared_error: 0.1976
-    Epoch 6/50
-    8067/8067 [==============================] - 64s 8ms/step - loss: 0.5929 - root_mean_squared_error: 0.1841 - val_loss: 0.6060 - val_root_mean_squared_error: 0.1978
-    Epoch 7/50
-    8067/8067 [==============================] - 65s 8ms/step - loss: 0.5923 - root_mean_squared_error: 0.1834 - val_loss: 0.6060 - val_root_mean_squared_error: 0.1978
-    Epoch 8/50
-    8067/8067 [==============================] - 68s 8ms/step - loss: 0.5919 - root_mean_squared_error: 0.1829 - val_loss: 0.6060 - val_root_mean_squared_error: 0.1976
-    Epoch 9/50
-    8067/8067 [==============================] - 156s 19ms/step - loss: 0.5914 - root_mean_squared_error: 0.1823 - val_loss: 0.6060 - val_root_mean_squared_error: 0.1976
-    Epoch 10/50
-    8067/8067 [==============================] - 70s 9ms/step - loss: 0.5912 - root_mean_squared_error: 0.1820 - val_loss: 0.6061 - val_root_mean_squared_error: 0.1976
-    Epoch 11/50
-    8067/8067 [==============================] - 69s 9ms/step - loss: 0.5911 - root_mean_squared_error: 0.1819 - val_loss: 0.6063 - val_root_mean_squared_error: 0.1978
-    Epoch 12/50
-    8067/8067 [==============================] - 67s 8ms/step - loss: 0.5908 - root_mean_squared_error: 0.1815 - val_loss: 0.6061 - val_root_mean_squared_error: 0.1975
-    Epoch 13/50
-    8067/8067 [==============================] - 69s 9ms/step - loss: 0.5905 - root_mean_squared_error: 0.1812 - val_loss: 0.6065 - val_root_mean_squared_error: 0.1978
-    Epoch 14/50
-    8067/8067 [==============================] - 72s 9ms/step - loss: 0.5905 - root_mean_squared_error: 0.1811 - val_loss: 0.6064 - val_root_mean_squared_error: 0.1978
-    Epoch 15/50
-    8067/8067 [==============================] - 71s 9ms/step - loss: 0.5900 - root_mean_squared_error: 0.1805 - val_loss: 0.6071 - val_root_mean_squared_error: 0.1985
-    Epoch 16/50
-    8067/8067 [==============================] - 75s 9ms/step - loss: 0.5899 - root_mean_squared_error: 0.1804 - val_loss: 0.6073 - val_root_mean_squared_error: 0.1985
-    Epoch 17/50
-    8067/8067 [==============================] - 78s 10ms/step - loss: 0.5897 - root_mean_squared_error: 0.1802 - val_loss: 0.6069 - val_root_mean_squared_error: 0.1981
-    Epoch 18/50
-    8067/8067 [==============================] - 78s 10ms/step - loss: 0.5898 - root_mean_squared_error: 0.1803 - val_loss: 0.6070 - val_root_mean_squared_error: 0.1982
-    Epoch 19/50
-    8067/8067 [==============================] - 77s 10ms/step - loss: 0.5897 - root_mean_squared_error: 0.1802 - val_loss: 0.6071 - val_root_mean_squared_error: 0.1983
-    Epoch 20/50
-    8067/8067 [==============================] - 73s 9ms/step - loss: 0.5892 - root_mean_squared_error: 0.1796 - val_loss: 0.6072 - val_root_mean_squared_error: 0.1984
-    Epoch 21/50
-    8067/8067 [==============================] - 68s 8ms/step - loss: 0.5895 - root_mean_squared_error: 0.1800 - val_loss: 0.6073 - val_root_mean_squared_error: 0.1985
-    Epoch 22/50
-    8067/8067 [==============================] - 68s 8ms/step - loss: 0.5889 - root_mean_squared_error: 0.1792 - val_loss: 0.6078 - val_root_mean_squared_error: 0.1989
-    Epoch 23/50
-    8067/8067 [==============================] - 73s 9ms/step - loss: 0.5892 - root_mean_squared_error: 0.1796 - val_loss: 0.6080 - val_root_mean_squared_error: 0.1991
-    Epoch 24/50
-    8067/8067 [==============================] - 78s 10ms/step - loss: 0.5888 - root_mean_squared_error: 0.1793 - val_loss: 0.6078 - val_root_mean_squared_error: 0.1989
-    Epoch 25/50
-    8067/8067 [==============================] - 70s 9ms/step - loss: 0.5891 - root_mean_squared_error: 0.1795 - val_loss: 0.6077 - val_root_mean_squared_error: 0.1987
-    Epoch 26/50
-    8067/8067 [==============================] - 73s 9ms/step - loss: 0.5887 - root_mean_squared_error: 0.1791 - val_loss: 0.6084 - val_root_mean_squared_error: 0.1995
-    Epoch 27/50
-    8067/8067 [==============================] - 71s 9ms/step - loss: 0.5887 - root_mean_squared_error: 0.1790 - val_loss: 0.6084 - val_root_mean_squared_error: 0.1996
-    Epoch 28/50
-    8067/8067 [==============================] - 70s 9ms/step - loss: 0.5886 - root_mean_squared_error: 0.1790 - val_loss: 0.6083 - val_root_mean_squared_error: 0.1993
-    Epoch 29/50
-    8067/8067 [==============================] - 66s 8ms/step - loss: 0.5887 - root_mean_squared_error: 0.1791 - val_loss: 0.6086 - val_root_mean_squared_error: 0.1996
-    Epoch 30/50
-    8067/8067 [==============================] - 67s 8ms/step - loss: 0.5886 - root_mean_squared_error: 0.1789 - val_loss: 0.6089 - val_root_mean_squared_error: 0.1999
-    Epoch 31/50
-    8067/8067 [==============================] - 72s 9ms/step - loss: 0.5885 - root_mean_squared_error: 0.1790 - val_loss: 0.6087 - val_root_mean_squared_error: 0.1997
-    Epoch 32/50
-    8067/8067 [==============================] - 69s 9ms/step - loss: 0.5883 - root_mean_squared_error: 0.1785 - val_loss: 0.6085 - val_root_mean_squared_error: 0.1994
-    Epoch 33/50
-    8067/8067 [==============================] - 66s 8ms/step - loss: 0.5886 - root_mean_squared_error: 0.1788 - val_loss: 0.6085 - val_root_mean_squared_error: 0.1995
-    Epoch 34/50
-    8067/8067 [==============================] - 66s 8ms/step - loss: 0.5883 - root_mean_squared_error: 0.1786 - val_loss: 0.6087 - val_root_mean_squared_error: 0.1997
-    Epoch 35/50
-    8067/8067 [==============================] - 69s 9ms/step - loss: 0.5881 - root_mean_squared_error: 0.1785 - val_loss: 0.6092 - val_root_mean_squared_error: 0.2001
-    Epoch 36/50
-    8067/8067 [==============================] - 79s 10ms/step - loss: 0.5884 - root_mean_squared_error: 0.1787 - val_loss: 0.6091 - val_root_mean_squared_error: 0.2001
-    Epoch 37/50
-    8067/8067 [==============================] - 72s 9ms/step - loss: 0.5879 - root_mean_squared_error: 0.1782 - val_loss: 0.6095 - val_root_mean_squared_error: 0.2005
-    Epoch 38/50
-    8067/8067 [==============================] - 73s 9ms/step - loss: 0.5880 - root_mean_squared_error: 0.1784 - val_loss: 0.6098 - val_root_mean_squared_error: 0.2007
-    Epoch 39/50
-    8067/8067 [==============================] - 72s 9ms/step - loss: 0.5882 - root_mean_squared_error: 0.1785 - val_loss: 0.6098 - val_root_mean_squared_error: 0.2005
-    Epoch 40/50
-    8067/8067 [==============================] - 71s 9ms/step - loss: 0.5881 - root_mean_squared_error: 0.1783 - val_loss: 0.6097 - val_root_mean_squared_error: 0.2004
-    Epoch 41/50
-    8067/8067 [==============================] - 70s 9ms/step - loss: 0.5879 - root_mean_squared_error: 0.1782 - val_loss: 0.6092 - val_root_mean_squared_error: 0.2000
-    Epoch 42/50
-    8067/8067 [==============================] - 69s 9ms/step - loss: 0.5880 - root_mean_squared_error: 0.1783 - val_loss: 0.6096 - val_root_mean_squared_error: 0.2004
-    Epoch 43/50
-    8067/8067 [==============================] - 72s 9ms/step - loss: 0.5879 - root_mean_squared_error: 0.1782 - val_loss: 0.6100 - val_root_mean_squared_error: 0.2008
-    Epoch 44/50
-    8067/8067 [==============================] - 69s 9ms/step - loss: 0.5881 - root_mean_squared_error: 0.1784 - val_loss: 0.6098 - val_root_mean_squared_error: 0.2006
-    Epoch 45/50
-    8067/8067 [==============================] - 69s 9ms/step - loss: 0.5875 - root_mean_squared_error: 0.1777 - val_loss: 0.6099 - val_root_mean_squared_error: 0.2006
-    Epoch 46/50
-    8067/8067 [==============================] - 71s 9ms/step - loss: 0.5881 - root_mean_squared_error: 0.1784 - val_loss: 0.6102 - val_root_mean_squared_error: 0.2010
-    Epoch 47/50
-    8067/8067 [==============================] - 74s 9ms/step - loss: 0.5876 - root_mean_squared_error: 0.1779 - val_loss: 0.6105 - val_root_mean_squared_error: 0.2013
-    Epoch 48/50
-    8067/8067 [==============================] - 72s 9ms/step - loss: 0.5878 - root_mean_squared_error: 0.1781 - val_loss: 0.6104 - val_root_mean_squared_error: 0.2010
-    Epoch 49/50
-    8067/8067 [==============================] - 72s 9ms/step - loss: 0.5875 - root_mean_squared_error: 0.1777 - val_loss: 0.6097 - val_root_mean_squared_error: 0.2004
-    Epoch 50/50
-    8067/8067 [==============================] - 70s 9ms/step - loss: 0.5876 - root_mean_squared_error: 0.1779 - val_loss: 0.6106 - val_root_mean_squared_error: 0.2012
-
-
-### Visualisasi Metrik evalusai model
-
-![png](assets/gambar-2.png)
-    
-Gambar 1. Visuaslisasi Metriks proses training
-
-Proses training model cukup smooth dan model konvergen pada epochs sekitar 50. Dari proses ini, kita memperoleh nilai error akhir sebesar sekitar 0.17 dan error pada data validasi sebesar 0.20. Nilai tersebut cukup bagus untuk sistem rekomendasi.
-
 
 ### Mendapatkan Rekomendasi Movie
 
-Untuk mendapatkan rekomendasi movie, ambil sampel user secara acak dan definisikan variabel *movie_not_visited* yang merupakan daftar movie yang belum pernah dikunjungi oleh pengguna. mengapa kita perlu menentukan daftar *movie_not_visited*? Hal ini karena daftar *movie_not_visited* inilah yang akan menjadi resto yang kita rekomendasikan. 
+Untuk mendapatkan rekomendasi *movie*, ambil sampel user secara acak dan definisikan variabel *movie_not_visited* yang merupakan daftar *movie* yang belum pernah dikunjungi oleh pengguna. mengapa perlu menentukan daftar *movie_not_visited*? Hal ini karena daftar *movie_not_visited* inilah yang akan menjadi *movie* yang direkomendasikan. 
 
 Sebelumnya, pengguna telah memberi rating pada beberapa *movie* yang telah mereka kunjungi. gunakan rating ini untuk membuat rekomendasi *movie* yang mungkin cocok untuk pengguna. *Movie* yang akan direkomendasikan adalah *movie* yang belum pernah dikunjungi oleh pengguna. Oleh karena itu, perlu membuat variabel *movie_not_visited* sebagai daftar *movie* untuk direkomendasikan pada pengguna. 
 
@@ -1488,10 +775,34 @@ $$ P = {TP \over TP+FP} * 100 $$
 
 keterangan : 
 - P = Precision
-- TP = *True Positif*
-- FP = *False Positif*
+- TP = *True Positif* merupakan jumlah rekomendasi yang relevan
+- FP = *False Positif* merupakan jumlah seluruh item yang tersedia
+
+Rekomendasi filem menggunakan moteode *Content Based Filtering* ini berdasarkan 'genre' movie
+
+Contoh perhitungan precision  
+
+Rekomendasi berdaskan judul filem *Absent-Minded Professor, The (1961)* dengan genre *Children*
+
+Tabel 23. Contoh hasil rekomendasi *Content Based Filtering* 
+
+| # |                                      title |    genre |
+|---|--------------------------------------------|----------|
+| 1 | Dreamer: Inspired by a True Story (2005)   | Children |
+| 2 |                 Ramona and Beezus (2010)   | Children |
+| 3 |                 Mighty Ducks, The (1992)   | Children |
+| 4 |          Another Cinderella Story (2008)   | Children |
+| 5 |       Muppet Christmas Carol, The (1992)   | Children |
+
+
+$$ P = {5/5} * 100 $$
+$$ P = 100 $$
+
+Nilai *Precision* adalah 100.0 %
 
 Berikut hasil evaluasi *Content Based Filtering* dengan metode *Precission* dari 5 data
+
+Tabel 24. Hasil evaluasi 5 data dengan metode *Precission*
 
 | # | Title | Genre | Precision |
 |---|-------|-------|-------------|
@@ -1522,9 +833,22 @@ yp = nilai prediksi
 
 Berikut hasil evaluasi *Collaborative Filtering* dengan metode *RMSE*
 
-|  metode  | train                   | test     |
-|-------------------------|----------|----------|
-| collaborative_filtering | 0.203803 | 0.211049 |
+
+#### Visualisasi Metrik evalusai model
+
+![png](assets/gambar-2.png)
+
+Gambar 1. Visuaslisasi Metriks proses training
+
+Pada gambar 1 terlihat bahwa error rates pada training dataset rendah, dan error rates test cenderung meningkat artinya model overfitting, penyebabnya adalah model yang terlalu kompleks
+
+Underfitting dan overfitting dapat diselesaikan dengan cara mengatur hyperparameter dari model.
+
+![png](assets/gambar-3.png)
+
+Gambar 1. Visuaslisasi Metriks proses training
+
+Dengan merubah nilai hyperparamter *embedding_size*: 32, *learning_rate*: 0.002, *batch_size*: 50, epoch: 100 Proses training model tidak begitu smooth dan model konvergen pada epochs sekitar 100. Dari proses ini,  diperoleh nilai error akhir sebesar sekitar 0.354 dan error pada data validasi sebesar 0.3457. Nilai tersebut cukup bagus untuk sistem rekomendasi.
 
 
 
